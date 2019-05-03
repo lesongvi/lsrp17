@@ -1,0 +1,1334 @@
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x00480C0B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x78650000	EBX: 0x00000000	ECX: 0x003D7350	EDX: 0x00000000
+ESI: 0x00000081	EDI: 0x003D7350	EBP: 0x7C802442	ESP: 0x0012FE38
+EFLAGS: 0x00010206
+
+Stack:
++0000: 0x7C802530   0x003D7DF8   0x7C802442   0x00000000
++0010: 0x003D7318   0x00000001   0x00000000   0x004912BA
++0020: 0x00000000   0x004912C7   0x7C809C28   0x00000000
++0030: 0x00000000   0x0048D4DB   0x00000000   0x00000A28
++0040: 0x0012FFC0   0x7FFDE000   0x00005880   0x00010101
++0050: 0x00000064   0x00001E61   0x0000006C   0x000005E0
++0060: 0x003D7DF8   0x656D6167   0x65646F6D   0x00003531
++0070: 0x004C4020   0x004C401C   0x7FFDE000   0x004AB4A0
++0080: 0x0012FEA8   0x0012FFB0   0x0012FFB0   0x0049D208
++0090: 0x004BA2F8   0xFFFFFFFF   0x0049B4A1   0x0049B4B1
++00A0: 0x004AB4A0   0x0012FFB0   0x004AB0E1   0xFFFFFFFF
++00B0: 0x0049CCA6   0x00000001   0x003D2948   0x003D29E8
++00C0: 0x00000094   0x00000005   0x00000001   0x00000A28
++00D0: 0x00000002   0x76726553   0x20656369   0x6B636150
++00E0: 0x02003220   0x7C90E1FE   0x0012FF30   0x7C80931A
++00F0: 0x0207D728   0x7C90D70C   0x40000000   0x00000000
++0100: 0x00000050   0x7C90E1FE   0x0207D728   0x0012FF74
++0110: 0x7FFDE000   0x00000000   0x0207D728   0x00000000
++0120: 0x00000050   0x0012FF50   0x00000000   0x0012FFE0
++0130: 0x00241FC0   0x0012FEA4   0x00000120   0x0012FFE0
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00528000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\LSLRP\samp-server.exe)
+ntdll.dll	A: 0x7C900000 - 0x7C9B0000	(C:\WINDOWS\system32\ntdll.dll)
+kernel32.dll	A: 0x7C800000 - 0x7C8F4000	(C:\WINDOWS\system32\kernel32.dll)
+SHELL32.dll	A: 0x7C9C0000 - 0x7D1D4000	(C:\WINDOWS\system32\SHELL32.dll)
+msvcrt.dll	A: 0x77C10000 - 0x77C68000	(C:\WINDOWS\system32\msvcrt.dll)
+GDI32.dll	A: 0x77F10000 - 0x77F56000	(C:\WINDOWS\system32\GDI32.dll)
+USER32.dll	A: 0x77D40000 - 0x77DD0000	(C:\WINDOWS\system32\USER32.dll)
+ADVAPI32.dll	A: 0x77DD0000 - 0x77E6B000	(C:\WINDOWS\system32\ADVAPI32.dll)
+RPCRT4.dll	A: 0x77E70000 - 0x77F01000	(C:\WINDOWS\system32\RPCRT4.dll)
+SHLWAPI.dll	A: 0x77F60000 - 0x77FD6000	(C:\WINDOWS\system32\SHLWAPI.dll)
+WSOCK32.dll	A: 0x71AD0000 - 0x71AD9000	(C:\WINDOWS\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x71AB0000 - 0x71AC7000	(C:\WINDOWS\system32\WS2_32.dll)
+WS2HELP.dll	A: 0x71AA0000 - 0x71AA8000	(C:\WINDOWS\system32\WS2HELP.dll)
+WINMM.dll	A: 0x76B40000 - 0x76B6D000	(C:\WINDOWS\system32\WINMM.dll)
+comctl32.dll	A: 0x773D0000 - 0x774D2000	(C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9\comctl32.dll)
+comctl32.dll	A: 0x5D090000 - 0x5D127000	(C:\WINDOWS\system32\comctl32.dll)
+streamer.dll	A: 0x10000000 - 0x1003E000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\LSLRP\plugins\streamer.dll)
+MSVCP100.dll	A: 0x78050000 - 0x780B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\LSLRP\MSVCP100.dll)
+MSVCR100.dll	A: 0x78AA0000 - 0x78B5F000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\LSLRP\MSVCR100.dll)
+sscanf.dll	A: 0x00B90000 - 0x00B9D000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\LSLRP\plugins\sscanf.dll)
+whirlpool.dll	A: 0x00BB0000 - 0x00BBC000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\LSLRP\plugins\whirlpool.dll)
+MSVCR80.dll	A: 0x78130000 - 0x781CB000	(C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.6195_x-ww_44262b86\MSVCR80.dll)
+mswsock.dll	A: 0x71A50000 - 0x71A8F000	(C:\WINDOWS\system32\mswsock.dll)
+hnetcfg.dll	A: 0x662B0000 - 0x66308000	(C:\WINDOWS\system32\hnetcfg.dll)
+wshtcpip.dll	A: 0x71A90000 - 0x71A98000	(C:\WINDOWS\System32\wshtcpip.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x00000000 Module: (Unknown)
+
+Registers:
+EAX: 0x01134188	EBX: 0x00396470	ECX: 0x0113FA25	EDX: 0x00000000
+ESI: 0x0113F7C0	EDI: 0x00000120	EBP: 0x001600D0	ESP: 0x1015FB94
+EFLAGS: 0x00010212
+
+Stack:
++0000: 0x00CBD0B7   0x01134188   0x00D93EA4   0x00D94EF4
++0010: 0x001600D0   0x00002736   0x001600D0   0x001600D0
++0020: 0x1015FDFC   0x0105DD99   0x00000000   0x00396470
++0030: 0x001600D0   0x00160100   0x000001FF   0x1015FC00
++0040: 0x001600E8   0x00160118   0x00CBBA65   0x00000000
++0050: 0x00000000   0x00000001   0x00000006   0x00000000
++0060: 0x00000000   0x00000000   0x00000000   0x2E373231
++0070: 0x2E302E30   0x69762031   0x43542061   0x50492F50
++0080: 0x71737900   0x6C635F6C   0x2865736F   0x61632029
++0090: 0xC2006C6C   0xB95DEBEC   0x00140178   0x60851A76
++00A0: 0x00140178   0x326DBEB5   0x00140178   0x1015FC54
++00B0: 0x00140178   0x7FFDA000   0x00000000   0x001401C8
++00C0: 0x00164780   0x00000001   0x00000000   0x00140178
++00D0: 0x001647C8   0x00164518   0x00000004   0x00000000
++00E0: 0x00000008   0x00140178   0x00140408   0x0000010B
++00F0: 0x00000008   0x00241EA4   0x00164768   0x0113FDB8
++0100: 0x00140178   0x00000004   0x001647B0   0x00140178
++0110: 0x00140240   0x00164788   0x0000015E   0x00140178
++0120: 0x001401C8   0x001647D0   0x00140220   0x00164788
++0130: 0x00000000   0x1015FCD8   0x00000000   0x7C9105C8
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00544000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\samp-server.exe)
+ntdll.dll	A: 0x7C900000 - 0x7C9B0000	(C:\WINDOWS\system32\ntdll.dll)
+kernel32.dll	A: 0x7C800000 - 0x7C8F4000	(C:\WINDOWS\system32\kernel32.dll)
+SHELL32.dll	A: 0x7C9C0000 - 0x7D1D4000	(C:\WINDOWS\system32\SHELL32.dll)
+msvcrt.dll	A: 0x77C10000 - 0x77C68000	(C:\WINDOWS\system32\msvcrt.dll)
+GDI32.dll	A: 0x77F10000 - 0x77F56000	(C:\WINDOWS\system32\GDI32.dll)
+USER32.dll	A: 0x77D40000 - 0x77DD0000	(C:\WINDOWS\system32\USER32.dll)
+ADVAPI32.dll	A: 0x77DD0000 - 0x77E6B000	(C:\WINDOWS\system32\ADVAPI32.dll)
+RPCRT4.dll	A: 0x77E70000 - 0x77F01000	(C:\WINDOWS\system32\RPCRT4.dll)
+SHLWAPI.dll	A: 0x77F60000 - 0x77FD6000	(C:\WINDOWS\system32\SHLWAPI.dll)
+WSOCK32.dll	A: 0x71AD0000 - 0x71AD9000	(C:\WINDOWS\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x71AB0000 - 0x71AC7000	(C:\WINDOWS\system32\WS2_32.dll)
+WS2HELP.dll	A: 0x71AA0000 - 0x71AA8000	(C:\WINDOWS\system32\WS2HELP.dll)
+WINMM.dll	A: 0x76B40000 - 0x76B6D000	(C:\WINDOWS\system32\WINMM.dll)
+comctl32.dll	A: 0x773D0000 - 0x774D2000	(C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9\comctl32.dll)
+comctl32.dll	A: 0x5D090000 - 0x5D127000	(C:\WINDOWS\system32\comctl32.dll)
+streamer.dll	A: 0x10000000 - 0x1005A000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\plugins\streamer.dll)
+MSVCP100.dll	A: 0x78050000 - 0x780B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x78AA0000 - 0x78B5F000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\MSVCR100.dll)
+mysql.dll	A: 0x00BB0000 - 0x00CA0000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\plugins\mysql.dll)
+LIBMYSQL.dll	A: 0x00CB0000 - 0x00FA5000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x00FC0000 - 0x01045000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x01050000 - 0x01126000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\MSVCR110.dll)
+mswsock.dll	A: 0x71A50000 - 0x71A8F000	(C:\WINDOWS\System32\mswsock.dll)
+DNSAPI.dll	A: 0x76F20000 - 0x76F47000	(C:\WINDOWS\system32\DNSAPI.dll)
+winrnr.dll	A: 0x76FB0000 - 0x76FB8000	(C:\WINDOWS\System32\winrnr.dll)
+WLDAP32.dll	A: 0x76F60000 - 0x76F8C000	(C:\WINDOWS\system32\WLDAP32.dll)
+rasadhlp.dll	A: 0x76FC0000 - 0x76FC6000	(C:\WINDOWS\system32\rasadhlp.dll)
+sscanf.dll	A: 0x01390000 - 0x013B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\plugins\sscanf.dll)
+whirlpool.dll	A: 0x013D0000 - 0x013F8000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\plugins\whirlpool.dll)
+MSVCR80.dll	A: 0x78130000 - 0x781CB000	(C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.6195_x-ww_44262b86\MSVCR80.dll)
+hnetcfg.dll	A: 0x662B0000 - 0x66308000	(C:\WINDOWS\system32\hnetcfg.dll)
+wshtcpip.dll	A: 0x71A90000 - 0x71A98000	(C:\WINDOWS\System32\wshtcpip.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x7C910D39 Module: (ntdll.dll)
+
+Registers:
+EAX: 0x00000000	EBX: 0x00000000	ECX: 0x7FFDF000	EDX: 0x01130608
+ESI: 0x10171048	EDI: 0x01130000	EBP: 0x0012F85C	ESP: 0x0012F7A0
+EFLAGS: 0x00010246
+
+Stack:
++0000: 0x00000002   0x10171050   0x0791B801   0x00000000
++0010: 0x01142B48   0x1016D040   0x01130178   0x0014E508
++0020: 0x1016D048   0x0000001C   0x0012F724   0x00000000
++0030: 0x1017D170   0x7C90EE18   0x1016D040   0xFFFFFFFF
++0040: 0x7C91056D   0x71A54238   0x01140000   0x00000020
++0050: 0x01142B48   0x00000000   0x000001B0   0x00002010
++0060: 0x00142B48   0x0012F870   0x71A541C6   0x71A541D5
++0070: 0x00000000   0x00390000   0x0791B801   0x00000000
++0080: 0x01130000   0x01130000   0x01142B48   0x0001F868
++0090: 0x00000004   0x00000000   0x00000000   0x01010036
++00A0: 0x00000402   0x0012F7A0   0x0012F3C4   0x0012F88C
++00B0: 0x7C90EE18   0x7C910570   0x00000001   0x0012F89C
++00C0: 0x00D51C7E   0x01130000   0x00000000   0x10171050
++00D0: 0xA7790A65   0x00000002   0x0113F9E8   0x0791B801
++00E0: 0x0012F86C   0x0012F870   0x0012F3B4   0x0012FEDC
++00F0: 0x00D57050   0xA7B0C599   0xFFFFFFFE   0x0012F908
++0100: 0x00CC5DDE   0x10171050   0x0113F9E8   0x00CBA65B
++0110: 0x0113F9E8   0x0179DE00   0x0113F9E8   0x00CBBAD9
++0120: 0x0113F9E8   0x0113F9E8   0x00000001   0x00000000
++0130: 0x00000000   0x00000000   0x00000000   0x00000001
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00544000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\samp-server.exe)
+ntdll.dll	A: 0x7C900000 - 0x7C9B0000	(C:\WINDOWS\system32\ntdll.dll)
+kernel32.dll	A: 0x7C800000 - 0x7C8F4000	(C:\WINDOWS\system32\kernel32.dll)
+SHELL32.dll	A: 0x7C9C0000 - 0x7D1D4000	(C:\WINDOWS\system32\SHELL32.dll)
+msvcrt.dll	A: 0x77C10000 - 0x77C68000	(C:\WINDOWS\system32\msvcrt.dll)
+GDI32.dll	A: 0x77F10000 - 0x77F56000	(C:\WINDOWS\system32\GDI32.dll)
+USER32.dll	A: 0x77D40000 - 0x77DD0000	(C:\WINDOWS\system32\USER32.dll)
+ADVAPI32.dll	A: 0x77DD0000 - 0x77E6B000	(C:\WINDOWS\system32\ADVAPI32.dll)
+RPCRT4.dll	A: 0x77E70000 - 0x77F01000	(C:\WINDOWS\system32\RPCRT4.dll)
+SHLWAPI.dll	A: 0x77F60000 - 0x77FD6000	(C:\WINDOWS\system32\SHLWAPI.dll)
+WSOCK32.dll	A: 0x71AD0000 - 0x71AD9000	(C:\WINDOWS\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x71AB0000 - 0x71AC7000	(C:\WINDOWS\system32\WS2_32.dll)
+WS2HELP.dll	A: 0x71AA0000 - 0x71AA8000	(C:\WINDOWS\system32\WS2HELP.dll)
+WINMM.dll	A: 0x76B40000 - 0x76B6D000	(C:\WINDOWS\system32\WINMM.dll)
+comctl32.dll	A: 0x773D0000 - 0x774D2000	(C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9\comctl32.dll)
+comctl32.dll	A: 0x5D090000 - 0x5D127000	(C:\WINDOWS\system32\comctl32.dll)
+streamer.dll	A: 0x10000000 - 0x1005A000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\streamer.dll)
+MSVCP100.dll	A: 0x78050000 - 0x780B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x78AA0000 - 0x78B5F000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR100.dll)
+mysql.dll	A: 0x00BB0000 - 0x00CA0000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\mysql.dll)
+LIBMYSQL.dll	A: 0x00CB0000 - 0x00FA5000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x00FC0000 - 0x01045000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x01050000 - 0x01126000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR110.dll)
+mswsock.dll	A: 0x71A50000 - 0x71A8F000	(C:\WINDOWS\System32\mswsock.dll)
+DNSAPI.dll	A: 0x76F20000 - 0x76F47000	(C:\WINDOWS\system32\DNSAPI.dll)
+winrnr.dll	A: 0x76FB0000 - 0x76FB8000	(C:\WINDOWS\System32\winrnr.dll)
+WLDAP32.dll	A: 0x76F60000 - 0x76F8C000	(C:\WINDOWS\system32\WLDAP32.dll)
+rasadhlp.dll	A: 0x76FC0000 - 0x76FC6000	(C:\WINDOWS\system32\rasadhlp.dll)
+sscanf.dll	A: 0x01390000 - 0x013B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\sscanf.dll)
+whirlpool.dll	A: 0x013D0000 - 0x013F8000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\whirlpool.dll)
+MSVCR80.dll	A: 0x78130000 - 0x781CB000	(C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.6195_x-ww_44262b86\MSVCR80.dll)
+hnetcfg.dll	A: 0x662B0000 - 0x66308000	(C:\WINDOWS\system32\hnetcfg.dll)
+wshtcpip.dll	A: 0x71A90000 - 0x71A98000	(C:\WINDOWS\System32\wshtcpip.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x7C910D39 Module: (ntdll.dll)
+
+Registers:
+EAX: 0x00000000	EBX: 0x00000000	ECX: 0x7FFDB000	EDX: 0x01130608
+ESI: 0x07B21048	EDI: 0x01130000	EBP: 0x07B0FD64	ESP: 0x07B0FCA8
+EFLAGS: 0x00010246
+
+Stack:
++0000: 0x00000000   0x07B21050   0xFFFFFFFF   0x00000000
++0010: 0x00000001   0x07B1D040   0x01130178   0x71AB42F8
++0020: 0x07B1D048   0xC0000120   0x00000000   0x000000F8
++0030: 0x07B230A0   0x0000A3A2   0x07B1D040   0x0014E2CC
++0040: 0x07B0FD68   0x71A771C8   0x71A571D8   0x00000020
++0050: 0x71A571D4   0x71A56E2D   0x000001B0   0x00002010
++0060: 0x07B0FD78   0x71A540B0   0x000000EC   0x71A541D5
++0070: 0xFFFFFFFF   0x00390000   0xFFFFFFFF   0x71A571D4
++0080: 0x01130000   0x01130000   0x00000001   0x0001FD70
++0090: 0x00000004   0x00000000   0x00000000   0x01010036
++00A0: 0x00000402   0x07B0FCA8   0x07B0F8CC   0x07B0FD94
++00B0: 0x7C90EE18   0x7C910570   0x00000001   0x07B0FDA4
++00C0: 0x00D51C7E   0x01130000   0x00000000   0x07B21050
++00D0: 0x0D5D0374   0x00000000   0x0113F9E8   0xFFFFFFFF
++00E0: 0x07B0FD74   0x07B0FD78   0x07B0F8BC   0x07B0FF14
++00F0: 0x00D57050   0x0A36C9B0   0xFFFFFFFE   0x07B0FF24
++0100: 0x00CC5DDE   0x07B21050   0x0113F9E8   0x00CBA65B
++0110: 0x0113F9E8   0x0113F9E8   0x0113F9E8   0x00CBC561
++0120: 0x0113F9E8   0x0113F9E8   0x0023FBC0   0x00CBDFED
++0130: 0x0113F9E8   0x0113F9E8   0x07B0FF24   0x00DB60C8
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00544000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\samp-server.exe)
+ntdll.dll	A: 0x7C900000 - 0x7C9B0000	(C:\WINDOWS\system32\ntdll.dll)
+kernel32.dll	A: 0x7C800000 - 0x7C8F4000	(C:\WINDOWS\system32\kernel32.dll)
+SHELL32.dll	A: 0x7C9C0000 - 0x7D1D4000	(C:\WINDOWS\system32\SHELL32.dll)
+msvcrt.dll	A: 0x77C10000 - 0x77C68000	(C:\WINDOWS\system32\msvcrt.dll)
+GDI32.dll	A: 0x77F10000 - 0x77F56000	(C:\WINDOWS\system32\GDI32.dll)
+USER32.dll	A: 0x77D40000 - 0x77DD0000	(C:\WINDOWS\system32\USER32.dll)
+ADVAPI32.dll	A: 0x77DD0000 - 0x77E6B000	(C:\WINDOWS\system32\ADVAPI32.dll)
+RPCRT4.dll	A: 0x77E70000 - 0x77F01000	(C:\WINDOWS\system32\RPCRT4.dll)
+SHLWAPI.dll	A: 0x77F60000 - 0x77FD6000	(C:\WINDOWS\system32\SHLWAPI.dll)
+WSOCK32.dll	A: 0x71AD0000 - 0x71AD9000	(C:\WINDOWS\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x71AB0000 - 0x71AC7000	(C:\WINDOWS\system32\WS2_32.dll)
+WS2HELP.dll	A: 0x71AA0000 - 0x71AA8000	(C:\WINDOWS\system32\WS2HELP.dll)
+WINMM.dll	A: 0x76B40000 - 0x76B6D000	(C:\WINDOWS\system32\WINMM.dll)
+comctl32.dll	A: 0x773D0000 - 0x774D2000	(C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9\comctl32.dll)
+comctl32.dll	A: 0x5D090000 - 0x5D127000	(C:\WINDOWS\system32\comctl32.dll)
+streamer.dll	A: 0x10000000 - 0x1005A000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\streamer.dll)
+MSVCP100.dll	A: 0x78050000 - 0x780B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x78AA0000 - 0x78B5F000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR100.dll)
+mysql.dll	A: 0x00BB0000 - 0x00CA0000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\mysql.dll)
+LIBMYSQL.dll	A: 0x00CB0000 - 0x00FA5000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x00FC0000 - 0x01045000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x01050000 - 0x01126000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR110.dll)
+mswsock.dll	A: 0x71A50000 - 0x71A8F000	(C:\WINDOWS\System32\mswsock.dll)
+DNSAPI.dll	A: 0x76F20000 - 0x76F47000	(C:\WINDOWS\system32\DNSAPI.dll)
+winrnr.dll	A: 0x76FB0000 - 0x76FB8000	(C:\WINDOWS\System32\winrnr.dll)
+WLDAP32.dll	A: 0x76F60000 - 0x76F8C000	(C:\WINDOWS\system32\WLDAP32.dll)
+rasadhlp.dll	A: 0x76FC0000 - 0x76FC6000	(C:\WINDOWS\system32\rasadhlp.dll)
+sscanf.dll	A: 0x01390000 - 0x013B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\sscanf.dll)
+whirlpool.dll	A: 0x013D0000 - 0x013F8000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\whirlpool.dll)
+MSVCR80.dll	A: 0x78130000 - 0x781CB000	(C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.6195_x-ww_44262b86\MSVCR80.dll)
+hnetcfg.dll	A: 0x662B0000 - 0x66308000	(C:\WINDOWS\system32\hnetcfg.dll)
+wshtcpip.dll	A: 0x71A90000 - 0x71A98000	(C:\WINDOWS\System32\wshtcpip.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x00000000 Module: (Unknown)
+
+Registers:
+EAX: 0x011343B0	EBX: 0xFFFFFFFF	ECX: 0x00002714	EDX: 0x00000000
+ESI: 0x0113F9E8	EDI: 0x00000004	EBP: 0x07B21050	ESP: 0x07B0FD8C
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x00CC6243   0x011343B0   0x0113F9E8   0x07B0FF24
++0010: 0x0801ACD8   0x00000000   0x00CC62FA   0x07B0FDC8
++0020: 0x0113F9E8   0x0113F9E8   0x0801ACD8   0x00DB60C8
++0030: 0x00CBBB74   0x0113F9E8   0x00CBC495   0x00000000
++0040: 0x0113F9E8   0x0801ACD8   0x00CBDFED   0x0113F9E8
++0050: 0x0113F9E8   0x07B0FF24   0x00DB60C8   0x00CBBBBD
++0060: 0x0113F9E8   0x00160228   0x00BBF4AA   0x0113F9E8
++0070: 0x0801AD70   0x00000019   0x34089D82   0x001501F0
++0080: 0x0801ACD8   0x001501B0   0x00000000   0x0801AB88
++0090: 0x0801ACD8   0x00000004   0x07C10BF0   0x74650000
++00A0: 0x6E6F7473   0x79740065   0x00006B00   0x00000000
++00B0: 0x0000000F   0x69727500   0x63696473   0x6E6F6974
++00C0: 0x00004449   0x00000000   0x0000000F   0x7C8399F3
++00D0: 0x7C809590   0xFFFFFFFF   0x7C809522   0x7C809C86
++00E0: 0x00000001   0x00000000   0x00000000   0x00000000
++00F0: 0x00000000   0x07B0FF08   0x00BB4D0A   0x53794D43
++0100: 0x75514C51   0x3A797265   0x6578453A   0x65747563
++0110: 0x6E79445B   0x5F686556   0x72657551   0x6E694679
++0120: 0x28687369   0x5D296969   0x07B0FF00   0x00BB57C6
++0130: 0x07B0FEA4   0xE1651345   0x01D20133   0xAD134853
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00544000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\samp-server.exe)
+ntdll.dll	A: 0x7C900000 - 0x7C9B0000	(C:\WINDOWS\system32\ntdll.dll)
+kernel32.dll	A: 0x7C800000 - 0x7C8F4000	(C:\WINDOWS\system32\kernel32.dll)
+SHELL32.dll	A: 0x7C9C0000 - 0x7D1D4000	(C:\WINDOWS\system32\SHELL32.dll)
+msvcrt.dll	A: 0x77C10000 - 0x77C68000	(C:\WINDOWS\system32\msvcrt.dll)
+GDI32.dll	A: 0x77F10000 - 0x77F56000	(C:\WINDOWS\system32\GDI32.dll)
+USER32.dll	A: 0x77D40000 - 0x77DD0000	(C:\WINDOWS\system32\USER32.dll)
+ADVAPI32.dll	A: 0x77DD0000 - 0x77E6B000	(C:\WINDOWS\system32\ADVAPI32.dll)
+RPCRT4.dll	A: 0x77E70000 - 0x77F01000	(C:\WINDOWS\system32\RPCRT4.dll)
+SHLWAPI.dll	A: 0x77F60000 - 0x77FD6000	(C:\WINDOWS\system32\SHLWAPI.dll)
+WSOCK32.dll	A: 0x71AD0000 - 0x71AD9000	(C:\WINDOWS\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x71AB0000 - 0x71AC7000	(C:\WINDOWS\system32\WS2_32.dll)
+WS2HELP.dll	A: 0x71AA0000 - 0x71AA8000	(C:\WINDOWS\system32\WS2HELP.dll)
+WINMM.dll	A: 0x76B40000 - 0x76B6D000	(C:\WINDOWS\system32\WINMM.dll)
+comctl32.dll	A: 0x773D0000 - 0x774D2000	(C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9\comctl32.dll)
+comctl32.dll	A: 0x5D090000 - 0x5D127000	(C:\WINDOWS\system32\comctl32.dll)
+streamer.dll	A: 0x10000000 - 0x1005A000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\streamer.dll)
+MSVCP100.dll	A: 0x78050000 - 0x780B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x78AA0000 - 0x78B5F000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR100.dll)
+mysql.dll	A: 0x00BB0000 - 0x00CA0000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\mysql.dll)
+LIBMYSQL.dll	A: 0x00CB0000 - 0x00FA5000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x00FC0000 - 0x01045000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x01050000 - 0x01126000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR110.dll)
+mswsock.dll	A: 0x71A50000 - 0x71A8F000	(C:\WINDOWS\System32\mswsock.dll)
+DNSAPI.dll	A: 0x76F20000 - 0x76F47000	(C:\WINDOWS\system32\DNSAPI.dll)
+winrnr.dll	A: 0x76FB0000 - 0x76FB8000	(C:\WINDOWS\System32\winrnr.dll)
+WLDAP32.dll	A: 0x76F60000 - 0x76F8C000	(C:\WINDOWS\system32\WLDAP32.dll)
+rasadhlp.dll	A: 0x76FC0000 - 0x76FC6000	(C:\WINDOWS\system32\rasadhlp.dll)
+sscanf.dll	A: 0x01390000 - 0x013B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\sscanf.dll)
+whirlpool.dll	A: 0x013D0000 - 0x013F8000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\whirlpool.dll)
+MSVCR80.dll	A: 0x78130000 - 0x781CB000	(C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.6195_x-ww_44262b86\MSVCR80.dll)
+hnetcfg.dll	A: 0x662B0000 - 0x66308000	(C:\WINDOWS\system32\hnetcfg.dll)
+wshtcpip.dll	A: 0x71A90000 - 0x71A98000	(C:\WINDOWS\System32\wshtcpip.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x00CC623A Module: (LIBMYSQL.dll)
+
+Registers:
+EAX: 0x00000000	EBX: 0xFFFFFFFF	ECX: 0x00002714	EDX: 0x00070002
+ESI: 0x0113F9E8	EDI: 0x00000004	EBP: 0x07B21050	ESP: 0x07B0FD94
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x0113F9E8   0x07B0FF24   0x001F33C8   0x00000000
++0010: 0x00CC62FA   0x07B0FDC8   0x0113F9E8   0x0113F9E8
++0020: 0x001F33C8   0x00DB60C8   0x00CBBB74   0x0113F9E8
++0030: 0x00CBC495   0x00000000   0x0113F9E8   0x001F33C8
++0040: 0x00CBDFED   0x0113F9E8   0x0113F9E8   0x07B0FF24
++0050: 0x00DB60C8   0x00CBBBBD   0x0113F9E8   0x001600F8
++0060: 0x00BBF4AA   0x0113F9E8   0x001AB860   0x00000389
++0070: 0x71A113AA   0x0014FC80   0x001F33C8   0x0014FC40
++0080: 0x00000001   0x0014FA30   0x001F33C8   0x00000010
++0090: 0x00000000   0xFFFFFFFF   0x07B0FED0   0x7FFDF000
++00A0: 0x7FFDA000   0x07B00009   0x07B0FE24   0x07B0FDF0
++00B0: 0x00000102   0x00000001   0x07B0FDE4   0x00160670
++00C0: 0x07B0FEFC   0x7C8399F3   0x7C809590   0xFFFFFFFF
++00D0: 0x7C809522   0x7C809C86   0x00000001   0x07B0FECC
++00E0: 0x00000000   0x0000000A   0x00000000   0x07B0FF08
++00F0: 0x00BB4D0A   0x53794D43   0x75514C51   0x3A797265
++0100: 0x6578453A   0x65747563   0x516E4F5B   0x79726575
++0110: 0x696E6946   0x69286873   0x005D2969   0x0014FC80
++0120: 0x07B0FF10   0x00BB57C6   0x07B0FEA4   0x8310C5DC
++0130: 0x01D20A67   0xD7258D62   0x000000D4   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00544000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\samp-server.exe)
+ntdll.dll	A: 0x7C900000 - 0x7C9B0000	(C:\WINDOWS\system32\ntdll.dll)
+kernel32.dll	A: 0x7C800000 - 0x7C8F4000	(C:\WINDOWS\system32\kernel32.dll)
+SHELL32.dll	A: 0x7C9C0000 - 0x7D1D4000	(C:\WINDOWS\system32\SHELL32.dll)
+msvcrt.dll	A: 0x77C10000 - 0x77C68000	(C:\WINDOWS\system32\msvcrt.dll)
+GDI32.dll	A: 0x77F10000 - 0x77F56000	(C:\WINDOWS\system32\GDI32.dll)
+USER32.dll	A: 0x77D40000 - 0x77DD0000	(C:\WINDOWS\system32\USER32.dll)
+ADVAPI32.dll	A: 0x77DD0000 - 0x77E6B000	(C:\WINDOWS\system32\ADVAPI32.dll)
+RPCRT4.dll	A: 0x77E70000 - 0x77F01000	(C:\WINDOWS\system32\RPCRT4.dll)
+SHLWAPI.dll	A: 0x77F60000 - 0x77FD6000	(C:\WINDOWS\system32\SHLWAPI.dll)
+WSOCK32.dll	A: 0x71AD0000 - 0x71AD9000	(C:\WINDOWS\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x71AB0000 - 0x71AC7000	(C:\WINDOWS\system32\WS2_32.dll)
+WS2HELP.dll	A: 0x71AA0000 - 0x71AA8000	(C:\WINDOWS\system32\WS2HELP.dll)
+WINMM.dll	A: 0x76B40000 - 0x76B6D000	(C:\WINDOWS\system32\WINMM.dll)
+comctl32.dll	A: 0x773D0000 - 0x774D2000	(C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9\comctl32.dll)
+comctl32.dll	A: 0x5D090000 - 0x5D127000	(C:\WINDOWS\system32\comctl32.dll)
+streamer.dll	A: 0x10000000 - 0x1005A000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\streamer.dll)
+MSVCP100.dll	A: 0x78050000 - 0x780B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x78AA0000 - 0x78B5F000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR100.dll)
+mysql.dll	A: 0x00BB0000 - 0x00CA0000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\mysql.dll)
+LIBMYSQL.dll	A: 0x00CB0000 - 0x00FA5000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x00FC0000 - 0x01045000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x01050000 - 0x01126000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR110.dll)
+mswsock.dll	A: 0x71A50000 - 0x71A8F000	(C:\WINDOWS\System32\mswsock.dll)
+DNSAPI.dll	A: 0x76F20000 - 0x76F47000	(C:\WINDOWS\system32\DNSAPI.dll)
+winrnr.dll	A: 0x76FB0000 - 0x76FB8000	(C:\WINDOWS\System32\winrnr.dll)
+WLDAP32.dll	A: 0x76F60000 - 0x76F8C000	(C:\WINDOWS\system32\WLDAP32.dll)
+rasadhlp.dll	A: 0x76FC0000 - 0x76FC6000	(C:\WINDOWS\system32\rasadhlp.dll)
+sscanf.dll	A: 0x01390000 - 0x013B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\sscanf.dll)
+whirlpool.dll	A: 0x013D0000 - 0x013F8000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\whirlpool.dll)
+MSVCR80.dll	A: 0x78130000 - 0x781CB000	(C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.6195_x-ww_44262b86\MSVCR80.dll)
+hnetcfg.dll	A: 0x662B0000 - 0x66308000	(C:\WINDOWS\system32\hnetcfg.dll)
+wshtcpip.dll	A: 0x71A90000 - 0x71A98000	(C:\WINDOWS\System32\wshtcpip.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x00000000 Module: (Unknown)
+
+Registers:
+EAX: 0x01134190	EBX: 0x000000AF	ECX: 0x00002714	EDX: 0x00000000
+ESI: 0x0113F9E8	EDI: 0x00000047	EBP: 0x07B210B8	ESP: 0x07B0FD70
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x00CC6243   0x01134190   0x07B23060   0x07B29088
++0010: 0x00000033   0x00000001   0x00CC62FA   0x07B0FDAC
++0020: 0x07B23060   0x0113F9E8   0x00000033   0x00001FE4
++0030: 0x00000410   0x07B2A0C6   0x00CBC495   0x00000000
++0040: 0x07B2A0C8   0x00000033   0x00CBC8DF   0x0113F9E8
++0050: 0x0113F9E8   0x00160228   0x0113F9E8   0x07B33478
++0060: 0x07B21100   0x07B35044   0x07B29088   0x07B23060
++0070: 0x07B2A0C7   0x00CBBC82   0x0113F9E8   0x07B33F68
++0080: 0x00000033   0x0014F508   0x07B0FF24   0x00BBF4FC
++0090: 0x0113F9E8   0x38B365BB   0x0014FE28   0x0014F508
++00A0: 0x0014FDE8   0x00000000   0x0014F3B8   0x0014F508
++00B0: 0x00000004   0x07B33408   0x74650000   0x6E6F7473
++00C0: 0x79740065   0x00006B00   0x00000000   0x0000000F
++00D0: 0x69727500   0x63696473   0x6E6F6974   0x00004449
++00E0: 0x00000000   0x0000000F   0x7C8399F3   0x7C809590
++00F0: 0xFFFFFFFF   0x7C809522   0x7C809C86   0x00000001
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0x07B0FF08   0x00BB4D0A   0x53794D43   0x75514C51
++0120: 0x3A797265   0x6578453A   0x65747563   0x6E79445B
++0130: 0x5F686556   0x72657551   0x6E694679   0x28687369
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00544000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\samp-server.exe)
+ntdll.dll	A: 0x7C900000 - 0x7C9B0000	(C:\WINDOWS\system32\ntdll.dll)
+kernel32.dll	A: 0x7C800000 - 0x7C8F4000	(C:\WINDOWS\system32\kernel32.dll)
+SHELL32.dll	A: 0x7C9C0000 - 0x7D1D4000	(C:\WINDOWS\system32\SHELL32.dll)
+msvcrt.dll	A: 0x77C10000 - 0x77C68000	(C:\WINDOWS\system32\msvcrt.dll)
+GDI32.dll	A: 0x77F10000 - 0x77F56000	(C:\WINDOWS\system32\GDI32.dll)
+USER32.dll	A: 0x77D40000 - 0x77DD0000	(C:\WINDOWS\system32\USER32.dll)
+ADVAPI32.dll	A: 0x77DD0000 - 0x77E6B000	(C:\WINDOWS\system32\ADVAPI32.dll)
+RPCRT4.dll	A: 0x77E70000 - 0x77F01000	(C:\WINDOWS\system32\RPCRT4.dll)
+SHLWAPI.dll	A: 0x77F60000 - 0x77FD6000	(C:\WINDOWS\system32\SHLWAPI.dll)
+WSOCK32.dll	A: 0x71AD0000 - 0x71AD9000	(C:\WINDOWS\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x71AB0000 - 0x71AC7000	(C:\WINDOWS\system32\WS2_32.dll)
+WS2HELP.dll	A: 0x71AA0000 - 0x71AA8000	(C:\WINDOWS\system32\WS2HELP.dll)
+WINMM.dll	A: 0x76B40000 - 0x76B6D000	(C:\WINDOWS\system32\WINMM.dll)
+comctl32.dll	A: 0x773D0000 - 0x774D2000	(C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9\comctl32.dll)
+comctl32.dll	A: 0x5D090000 - 0x5D127000	(C:\WINDOWS\system32\comctl32.dll)
+streamer.dll	A: 0x10000000 - 0x1005A000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\streamer.dll)
+MSVCP100.dll	A: 0x78050000 - 0x780B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x78AA0000 - 0x78B5F000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR100.dll)
+mysql.dll	A: 0x00BB0000 - 0x00CA0000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\mysql.dll)
+LIBMYSQL.dll	A: 0x00CB0000 - 0x00FA5000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x00FC0000 - 0x01045000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x01050000 - 0x01126000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR110.dll)
+mswsock.dll	A: 0x71A50000 - 0x71A8F000	(C:\WINDOWS\System32\mswsock.dll)
+DNSAPI.dll	A: 0x76F20000 - 0x76F47000	(C:\WINDOWS\system32\DNSAPI.dll)
+winrnr.dll	A: 0x76FB0000 - 0x76FB8000	(C:\WINDOWS\System32\winrnr.dll)
+WLDAP32.dll	A: 0x76F60000 - 0x76F8C000	(C:\WINDOWS\system32\WLDAP32.dll)
+rasadhlp.dll	A: 0x76FC0000 - 0x76FC6000	(C:\WINDOWS\system32\rasadhlp.dll)
+sscanf.dll	A: 0x01390000 - 0x013B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\sscanf.dll)
+whirlpool.dll	A: 0x013D0000 - 0x013F8000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\whirlpool.dll)
+MSVCR80.dll	A: 0x78130000 - 0x781CB000	(C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.6195_x-ww_44262b86\MSVCR80.dll)
+hnetcfg.dll	A: 0x662B0000 - 0x66308000	(C:\WINDOWS\system32\hnetcfg.dll)
+wshtcpip.dll	A: 0x71A90000 - 0x71A98000	(C:\WINDOWS\System32\wshtcpip.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x00401696 Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0218C5F8	EBX: 0x00000000	ECX: 0x00000000	EDX: 0x00000036
+ESI: 0x0218C5F8	EDI: 0x0218C5F8	EBP: 0x00000071	ESP: 0x0018F9A8
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x00401726   0x0218C5F8   0x0018F9C4   0x0218C5F8
++0010: 0x0218C5F8   0x00000071   0x00000000   0x72657961
++0020: 0x656C6553   0x624F7463   0x7463656A   0x6F706B00
++0030: 0x00746E69   0x0018FBC4   0x0046C28C   0x021D0358
++0040: 0x0046ED0E   0x0218C5F8   0x004B5E88   0x0018FA00
++0050: 0x00000000   0x00000000   0x00000000   0x00493C03
++0060: 0x00000000   0x0000FFFF   0x40533334   0x00000036
++0070: 0x00000003   0x02133918   0x0018FB68   0x0018FC54
++0080: 0x01D1D001   0x01000009   0x0000FFFF   0x00000003
++0090: 0x40533334   0x00000036   0x00000078   0x00000078
++00A0: 0x00000071   0x0018FB68   0x0045A200   0x0018FAA0
++00B0: 0x00000001   0x00000009   0x00000002   0x9EE9B70E
++00C0: 0x0000FE3E   0x00000000   0x004555D9   0x0018FAA0
++00D0: 0x00000001   0x00000009   0x00000002   0x9EE9B70E
++00E0: 0x0000FE3E   0x004555FD   0x00000000   0x00000001
++00F0: 0x004B4E08   0x9EE9FE3E   0x0000003C   0x00000800
++0100: 0x00000000   0x0018FAB1   0xE23C1401   0x8025F80C
++0110: 0x3F800000   0x00000000   0x00000000   0x00000011
++0120: 0x00000000   0x00000001   0x0018F900   0x3F800000
++0130: 0x00000000   0x00000000   0x00000011   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(E:\LS-RP\LS-RP\samp-server.exe)
+ntdll.dll	A: 0x77C50000 - 0x77DD0000	(C:\windows\SysWOW64\ntdll.dll)
+kernel32.dll	A: 0x77470000 - 0x77580000	(C:\windows\syswow64\kernel32.dll)
+KERNELBASE.dll	A: 0x75950000 - 0x75996000	(C:\windows\syswow64\KERNELBASE.dll)
+SHELL32.dll	A: 0x75CC0000 - 0x7690A000	(C:\windows\syswow64\SHELL32.dll)
+msvcrt.dll	A: 0x76D20000 - 0x76DCC000	(C:\windows\syswow64\msvcrt.dll)
+SHLWAPI.dll	A: 0x769B0000 - 0x76A07000	(C:\windows\syswow64\SHLWAPI.dll)
+GDI32.dll	A: 0x76920000 - 0x769B0000	(C:\windows\syswow64\GDI32.dll)
+USER32.dll	A: 0x76A50000 - 0x76B50000	(C:\windows\syswow64\USER32.dll)
+ADVAPI32.dll	A: 0x75810000 - 0x758B0000	(C:\windows\syswow64\ADVAPI32.dll)
+sechost.dll	A: 0x75B90000 - 0x75BA9000	(C:\windows\SysWOW64\sechost.dll)
+RPCRT4.dll	A: 0x76E80000 - 0x76F70000	(C:\windows\syswow64\RPCRT4.dll)
+SspiCli.dll	A: 0x757B0000 - 0x75810000	(C:\windows\syswow64\SspiCli.dll)
+CRYPTBASE.dll	A: 0x757A0000 - 0x757AC000	(C:\windows\syswow64\CRYPTBASE.dll)
+LPK.dll	A: 0x75C50000 - 0x75C5A000	(C:\windows\syswow64\LPK.dll)
+USP10.dll	A: 0x758B0000 - 0x7594D000	(C:\windows\syswow64\USP10.dll)
+WSOCK32.dll	A: 0x609B0000 - 0x609B7000	(C:\windows\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x76A10000 - 0x76A45000	(C:\windows\syswow64\WS2_32.dll)
+NSI.dll	A: 0x77C20000 - 0x77C26000	(C:\windows\syswow64\NSI.dll)
+WINMM.dll	A: 0x73850000 - 0x73882000	(C:\windows\system32\WINMM.dll)
+IMM32.DLL	A: 0x77120000 - 0x77180000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x75AC0000 - 0x75B8C000	(C:\windows\syswow64\MSCTF.dll)
+streamer.DLL	A: 0x74AC0000 - 0x74AFE000	(E:\LS-RP\LS-RP\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x732A0000 - 0x73309000	(E:\LS-RP\LS-RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x731E0000 - 0x7329F000	(E:\LS-RP\LS-RP\MSVCR100.dll)
+mysql.DLL	A: 0x72A90000 - 0x72B64000	(E:\LS-RP\LS-RP\plugins\mysql.DLL)
+LIBMYSQL.dll	A: 0x6AE30000 - 0x6B0FA000	(E:\LS-RP\LS-RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x72A00000 - 0x72A85000	(E:\LS-RP\LS-RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x6E050000 - 0x6E126000	(E:\LS-RP\LS-RP\MSVCR110.dll)
+NLAapi.dll	A: 0x73890000 - 0x738A0000	(C:\windows\system32\NLAapi.dll)
+napinsp.dll	A: 0x735E0000 - 0x735F0000	(C:\windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x73570000 - 0x73582000	(C:\windows\system32\pnrpnsp.dll)
+mswsock.dll	A: 0x738B0000 - 0x738EC000	(C:\windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73520000 - 0x73564000	(C:\windows\system32\DNSAPI.dll)
+winrnr.dll	A: 0x73510000 - 0x73518000	(C:\windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x74430000 - 0x74436000	(C:\windows\system32\rasadhlp.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000C000	(E:\LS-RP\LS-RP\plugins\sscanf.DLL)
+whirlpool.DLL	A: 0x01C80000 - 0x01C8C000	(E:\LS-RP\LS-RP\plugins\whirlpool.DLL)
+MSVCR80.dll	A: 0x6DFB0000 - 0x6E04B000	(C:\windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll)
+wshtcpip.dll	A: 0x738A0000 - 0x738A5000	(C:\windows\System32\wshtcpip.dll)
+IPHLPAPI.DLL	A: 0x734F0000 - 0x7350C000	(C:\windows\system32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x734E0000 - 0x734E7000	(C:\windows\system32\WINNSI.DLL)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x77C82A9A Module: (ntdll.dll)
+
+Registers:
+EAX: 0x000001BC	EBX: 0x00100000	ECX: 0x00000000	EDX: 0x00000044
+ESI: 0x08EA0040	EDI: 0x00600000	EBP: 0x0018FB70	ESP: 0x0018FA90
+EFLAGS: 0x00010206
+
+Stack:
++0000: 0x776C14AA   0x00000000   0x00600000   0x08EA0048
++0010: 0x00000000   0x00360000   0x023CDB20   0x0018FAD8
++0020: 0x03DE4028   0x00360000   0x006000C4   0x00600150
++0030: 0x00360000   0x00600000   0x00600150   0x00000000
++0040: 0x2D00002D   0x00600150   0x06000006   0x00362998
++0050: 0x0756F008   0x0000007F   0xBD0001BC   0x00360000
++0060: 0x00000003   0xBD0001BC   0x0000007F   0x00360138
++0070: 0x00360000   0x6500187D   0x0000007F   0x36000036
++0080: 0x00000000   0x003613C0   0x00362998   0x0756F008
++0090: 0x000001B0   0x00000000   0x00600150   0x00361310
++00A0: 0x0018FC20   0x0000007F   0x006000C4   0x00000000
++00B0: 0x00000200   0x00000000   0x0100E748   0x006000C4
++00C0: 0x00000200   0x010102B0   0x0018FA90   0x0018F4DC
++00D0: 0x0018FBD4   0x77CC1ECD   0x00B3279A   0x00000000
++00E0: 0x0018FB90   0x77C83472   0x08EA0040   0x08EA0048
++00F0: 0x08EA0048   0x020C8C4C   0x020C8F00   0x08EA0040
++0100: 0x0018FBA4   0x774814DD   0x00600000   0x00000000
++0110: 0x08EA0048   0x0018FBE4   0x69DD1C7E   0x00600000
++0120: 0x00000000   0x08EA0048   0x9CD18129   0x020C8C4C
++0130: 0x08EA1048   0x020C8F00   0x00610000   0x0018FBB8
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(E:\LS-RP\LS-RP\samp-server.exe)
+ntdll.dll	A: 0x77C50000 - 0x77DD0000	(C:\windows\SysWOW64\ntdll.dll)
+kernel32.dll	A: 0x77470000 - 0x77580000	(C:\windows\syswow64\kernel32.dll)
+KERNELBASE.dll	A: 0x75950000 - 0x75996000	(C:\windows\syswow64\KERNELBASE.dll)
+SHELL32.dll	A: 0x75CC0000 - 0x7690A000	(C:\windows\syswow64\SHELL32.dll)
+msvcrt.dll	A: 0x76D20000 - 0x76DCC000	(C:\windows\syswow64\msvcrt.dll)
+SHLWAPI.dll	A: 0x769B0000 - 0x76A07000	(C:\windows\syswow64\SHLWAPI.dll)
+GDI32.dll	A: 0x76920000 - 0x769B0000	(C:\windows\syswow64\GDI32.dll)
+USER32.dll	A: 0x76A50000 - 0x76B50000	(C:\windows\syswow64\USER32.dll)
+ADVAPI32.dll	A: 0x75810000 - 0x758B0000	(C:\windows\syswow64\ADVAPI32.dll)
+sechost.dll	A: 0x75B90000 - 0x75BA9000	(C:\windows\SysWOW64\sechost.dll)
+RPCRT4.dll	A: 0x76E80000 - 0x76F70000	(C:\windows\syswow64\RPCRT4.dll)
+SspiCli.dll	A: 0x757B0000 - 0x75810000	(C:\windows\syswow64\SspiCli.dll)
+CRYPTBASE.dll	A: 0x757A0000 - 0x757AC000	(C:\windows\syswow64\CRYPTBASE.dll)
+LPK.dll	A: 0x75C50000 - 0x75C5A000	(C:\windows\syswow64\LPK.dll)
+USP10.dll	A: 0x758B0000 - 0x7594D000	(C:\windows\syswow64\USP10.dll)
+WSOCK32.dll	A: 0x609B0000 - 0x609B7000	(C:\windows\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x76A10000 - 0x76A45000	(C:\windows\syswow64\WS2_32.dll)
+NSI.dll	A: 0x77C20000 - 0x77C26000	(C:\windows\syswow64\NSI.dll)
+WINMM.dll	A: 0x73850000 - 0x73882000	(C:\windows\system32\WINMM.dll)
+IMM32.DLL	A: 0x77120000 - 0x77180000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x75AC0000 - 0x75B8C000	(C:\windows\syswow64\MSCTF.dll)
+MSVCR100.dll	A: 0x6A940000 - 0x6A9FF000	(E:\LS-RP\LS-RP\MSVCR100.dll)
+mysql.DLL	A: 0x6A860000 - 0x6A934000	(E:\LS-RP\LS-RP\plugins\mysql.DLL)
+LIBMYSQL.dll	A: 0x69D30000 - 0x69FFA000	(E:\LS-RP\LS-RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x6A050000 - 0x6A0D5000	(E:\LS-RP\LS-RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x69C50000 - 0x69D26000	(E:\LS-RP\LS-RP\MSVCR110.dll)
+NLAapi.dll	A: 0x73890000 - 0x738A0000	(C:\windows\system32\NLAapi.dll)
+napinsp.dll	A: 0x735E0000 - 0x735F0000	(C:\windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x73570000 - 0x73582000	(C:\windows\system32\pnrpnsp.dll)
+mswsock.dll	A: 0x738B0000 - 0x738EC000	(C:\windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73520000 - 0x73564000	(C:\windows\system32\DNSAPI.dll)
+winrnr.dll	A: 0x73510000 - 0x73518000	(C:\windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x74430000 - 0x74436000	(C:\windows\system32\rasadhlp.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000C000	(E:\LS-RP\LS-RP\plugins\sscanf.DLL)
+whirlpool.DLL	A: 0x00380000 - 0x0038C000	(E:\LS-RP\LS-RP\plugins\whirlpool.DLL)
+MSVCR80.dll	A: 0x66040000 - 0x660DB000	(C:\windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll)
+wshtcpip.dll	A: 0x738A0000 - 0x738A5000	(C:\windows\System32\wshtcpip.dll)
+IPHLPAPI.DLL	A: 0x734F0000 - 0x7350C000	(C:\windows\system32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x734E0000 - 0x734E7000	(C:\windows\system32\WINNSI.DLL)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x00401696 Module: (samp-server.exe)
+
+Registers:
+EAX: 0x01FEF418	EBX: 0x00000000	ECX: 0x4637347B	EDX: 0x02C5F27D
+ESI: 0x00000000	EDI: 0x0210CDA8	EBP: 0x774810FF	ESP: 0x0018FDB0
+EFLAGS: 0x00010216
+
+Stack:
++0000: 0x00401726   0x01FEF418   0x0018FDCC   0x0210CDA8
++0010: 0x00000000   0x774810FF   0x00000000   0x00000000
++0020: 0x073E5488   0x1001C4CC   0x106C3F54   0x00000000
++0030: 0x10010020   0x006A7A88   0x00482A68   0x01F93688
++0040: 0x00480C41   0x01FEF418   0x02C5F27D   0x0018FE1C
++0050: 0x77481136   0x021093C8   0x774810FF   0x3F1B24B9
++0060: 0x00108C30   0x02101268   0x00000001   0x004912BA
++0070: 0x00000000   0x004912C7   0x774816C5   0x00000000
++0080: 0x3F1B24B9   0x0048D4DB   0x00000000   0x00001DB1
++0090: 0x0018FF88   0x7EFDE000   0x0100E000   0x00010101
++00A0: 0x00000064   0x00001E61   0x000000A0   0x000015E4
++00B0: 0x021093C8   0x656D6167   0x65646F6D   0x00003531
++00C0: 0x004C4020   0x004C401C   0x7EFDE000   0x004AB4A0
++00D0: 0x0018FE70   0x0018FF78   0x0018FF78   0x0049D208
++00E0: 0x004BA2F8   0xFFFFFFFF   0x0049B4A1   0x0049B4B1
++00F0: 0x004AB4A0   0x0018FF78   0x004AB0E1   0xFFFFFFFF
++0100: 0x0049CCA6   0x00000001   0x021014B0   0x021014E0
++0110: 0x00000094   0x00000006   0x00000001   0x00001DB1
++0120: 0x00000002   0x76726553   0x20656369   0x6B636150
++0130: 0x00003120   0x00000000   0x00000000   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(E:\LS-RP\LS-RP\samp-server.exe)
+ntdll.dll	A: 0x77C50000 - 0x77DD0000	(C:\windows\SysWOW64\ntdll.dll)
+kernel32.dll	A: 0x77470000 - 0x77580000	(C:\windows\syswow64\kernel32.dll)
+KERNELBASE.dll	A: 0x75950000 - 0x75996000	(C:\windows\syswow64\KERNELBASE.dll)
+SHELL32.dll	A: 0x75CC0000 - 0x7690A000	(C:\windows\syswow64\SHELL32.dll)
+msvcrt.dll	A: 0x76D20000 - 0x76DCC000	(C:\windows\syswow64\msvcrt.dll)
+SHLWAPI.dll	A: 0x769B0000 - 0x76A07000	(C:\windows\syswow64\SHLWAPI.dll)
+GDI32.dll	A: 0x76920000 - 0x769B0000	(C:\windows\syswow64\GDI32.dll)
+USER32.dll	A: 0x76A50000 - 0x76B50000	(C:\windows\syswow64\USER32.dll)
+ADVAPI32.dll	A: 0x75810000 - 0x758B0000	(C:\windows\syswow64\ADVAPI32.dll)
+sechost.dll	A: 0x75B90000 - 0x75BA9000	(C:\windows\SysWOW64\sechost.dll)
+RPCRT4.dll	A: 0x76E80000 - 0x76F70000	(C:\windows\syswow64\RPCRT4.dll)
+SspiCli.dll	A: 0x757B0000 - 0x75810000	(C:\windows\syswow64\SspiCli.dll)
+CRYPTBASE.dll	A: 0x757A0000 - 0x757AC000	(C:\windows\syswow64\CRYPTBASE.dll)
+LPK.dll	A: 0x75C50000 - 0x75C5A000	(C:\windows\syswow64\LPK.dll)
+USP10.dll	A: 0x758B0000 - 0x7594D000	(C:\windows\syswow64\USP10.dll)
+WSOCK32.dll	A: 0x609B0000 - 0x609B7000	(C:\windows\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x76A10000 - 0x76A45000	(C:\windows\syswow64\WS2_32.dll)
+NSI.dll	A: 0x77C20000 - 0x77C26000	(C:\windows\syswow64\NSI.dll)
+WINMM.dll	A: 0x73850000 - 0x73882000	(C:\windows\system32\WINMM.dll)
+IMM32.DLL	A: 0x77120000 - 0x77180000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x75AC0000 - 0x75B8C000	(C:\windows\syswow64\MSCTF.dll)
+streamer.DLL	A: 0x6AD20000 - 0x6AD5E000	(E:\LS-RP\LS-RP\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x6AA80000 - 0x6AAE9000	(E:\LS-RP\LS-RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x6A880000 - 0x6A93F000	(E:\LS-RP\LS-RP\MSVCR100.dll)
+mysql.DLL	A: 0x69F20000 - 0x69FF4000	(E:\LS-RP\LS-RP\plugins\mysql.DLL)
+LIBMYSQL.dll	A: 0x69C50000 - 0x69F1A000	(E:\LS-RP\LS-RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x6A970000 - 0x6A9F5000	(E:\LS-RP\LS-RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x66000000 - 0x660D6000	(E:\LS-RP\LS-RP\MSVCR110.dll)
+NLAapi.dll	A: 0x73890000 - 0x738A0000	(C:\windows\system32\NLAapi.dll)
+napinsp.dll	A: 0x735E0000 - 0x735F0000	(C:\windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x73570000 - 0x73582000	(C:\windows\system32\pnrpnsp.dll)
+mswsock.dll	A: 0x738B0000 - 0x738EC000	(C:\windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73520000 - 0x73564000	(C:\windows\system32\DNSAPI.dll)
+winrnr.dll	A: 0x73510000 - 0x73518000	(C:\windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x74430000 - 0x74436000	(C:\windows\system32\rasadhlp.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000C000	(E:\LS-RP\LS-RP\plugins\sscanf.DLL)
+whirlpool.DLL	A: 0x00380000 - 0x0038C000	(E:\LS-RP\LS-RP\plugins\whirlpool.DLL)
+MSVCR80.dll	A: 0x6A7E0000 - 0x6A87B000	(C:\windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll)
+wshtcpip.dll	A: 0x738A0000 - 0x738A5000	(C:\windows\System32\wshtcpip.dll)
+IPHLPAPI.DLL	A: 0x734F0000 - 0x7350C000	(C:\windows\system32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x734E0000 - 0x734E7000	(C:\windows\system32\WINNSI.DLL)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x00401696 Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0218F418	EBX: 0x00000000	ECX: 0x4637347B	EDX: 0x02DEF27D
+ESI: 0x00000000	EDI: 0x01DECDA8	EBP: 0x774810FF	ESP: 0x0018FDB0
+EFLAGS: 0x00010216
+
+Stack:
++0000: 0x00401726   0x0218F418   0x0018FDCC   0x01DECDA8
++0010: 0x00000000   0x774810FF   0x00000000   0x774816C5
++0020: 0x0000015C   0x03238268   0x02F666E0   0x0044EA22
++0030: 0xAB3B44D0   0x00002309   0x3BD67332   0x0049EEF9
++0040: 0x00480C41   0x0218F418   0x02DEF27D   0x0018FE1C
++0050: 0x77481136   0x01DE93C8   0x774810FF   0x3BD67332
++0060: 0x00DE8C30   0x00000001   0x00000000   0x004912BA
++0070: 0x00000000   0x004912C7   0x774816C5   0x00000000
++0080: 0x3BD67332   0x0048D4DB   0x00000000   0x00001DB1
++0090: 0x0018FF88   0x7EFDE000   0x0100E000   0x00010101
++00A0: 0x00000064   0x00001E61   0x000000A0   0x00001080
++00B0: 0x01DE93C8   0x656D6167   0x65646F6D   0x00003531
++00C0: 0x004C4020   0x004C401C   0x7EFDE000   0x004AB4A0
++00D0: 0x0018FE70   0x0018FF78   0x0018FF78   0x0049D208
++00E0: 0x004BA2F8   0xFFFFFFFF   0x0049B4A1   0x0049B4B1
++00F0: 0x004AB4A0   0x0018FF78   0x004AB0E1   0xFFFFFFFF
++0100: 0x0049CCA6   0x00000001   0x01DE14B0   0x01DE14E0
++0110: 0x00000094   0x00000006   0x00000001   0x00001DB1
++0120: 0x00000002   0x76726553   0x20656369   0x6B636150
++0130: 0x00003120   0x00000000   0x00000000   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(E:\LS-RP\LS-RP\samp-server.exe)
+ntdll.dll	A: 0x77C50000 - 0x77DD0000	(C:\windows\SysWOW64\ntdll.dll)
+kernel32.dll	A: 0x77470000 - 0x77580000	(C:\windows\syswow64\kernel32.dll)
+KERNELBASE.dll	A: 0x75950000 - 0x75996000	(C:\windows\syswow64\KERNELBASE.dll)
+SHELL32.dll	A: 0x75CC0000 - 0x7690A000	(C:\windows\syswow64\SHELL32.dll)
+msvcrt.dll	A: 0x76D20000 - 0x76DCC000	(C:\windows\syswow64\msvcrt.dll)
+SHLWAPI.dll	A: 0x769B0000 - 0x76A07000	(C:\windows\syswow64\SHLWAPI.dll)
+GDI32.dll	A: 0x76920000 - 0x769B0000	(C:\windows\syswow64\GDI32.dll)
+USER32.dll	A: 0x76A50000 - 0x76B50000	(C:\windows\syswow64\USER32.dll)
+ADVAPI32.dll	A: 0x75810000 - 0x758B0000	(C:\windows\syswow64\ADVAPI32.dll)
+sechost.dll	A: 0x75B90000 - 0x75BA9000	(C:\windows\SysWOW64\sechost.dll)
+RPCRT4.dll	A: 0x76E80000 - 0x76F70000	(C:\windows\syswow64\RPCRT4.dll)
+SspiCli.dll	A: 0x757B0000 - 0x75810000	(C:\windows\syswow64\SspiCli.dll)
+CRYPTBASE.dll	A: 0x757A0000 - 0x757AC000	(C:\windows\syswow64\CRYPTBASE.dll)
+LPK.dll	A: 0x75C50000 - 0x75C5A000	(C:\windows\syswow64\LPK.dll)
+USP10.dll	A: 0x758B0000 - 0x7594D000	(C:\windows\syswow64\USP10.dll)
+WSOCK32.dll	A: 0x609B0000 - 0x609B7000	(C:\windows\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x76A10000 - 0x76A45000	(C:\windows\syswow64\WS2_32.dll)
+NSI.dll	A: 0x77C20000 - 0x77C26000	(C:\windows\syswow64\NSI.dll)
+WINMM.dll	A: 0x73850000 - 0x73882000	(C:\windows\system32\WINMM.dll)
+IMM32.DLL	A: 0x77120000 - 0x77180000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x75AC0000 - 0x75B8C000	(C:\windows\syswow64\MSCTF.dll)
+streamer.DLL	A: 0x6AD60000 - 0x6AD9E000	(E:\LS-RP\LS-RP\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x6AAF0000 - 0x6AB59000	(E:\LS-RP\LS-RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x6A940000 - 0x6A9FF000	(E:\LS-RP\LS-RP\MSVCR100.dll)
+mysql.DLL	A: 0x6A860000 - 0x6A934000	(E:\LS-RP\LS-RP\plugins\mysql.DLL)
+LIBMYSQL.dll	A: 0x69D30000 - 0x69FFA000	(E:\LS-RP\LS-RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x6A050000 - 0x6A0D5000	(E:\LS-RP\LS-RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x69C50000 - 0x69D26000	(E:\LS-RP\LS-RP\MSVCR110.dll)
+NLAapi.dll	A: 0x73890000 - 0x738A0000	(C:\windows\system32\NLAapi.dll)
+napinsp.dll	A: 0x735E0000 - 0x735F0000	(C:\windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x73570000 - 0x73582000	(C:\windows\system32\pnrpnsp.dll)
+mswsock.dll	A: 0x738B0000 - 0x738EC000	(C:\windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73520000 - 0x73564000	(C:\windows\system32\DNSAPI.dll)
+winrnr.dll	A: 0x73510000 - 0x73518000	(C:\windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x74430000 - 0x74436000	(C:\windows\system32\rasadhlp.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000C000	(E:\LS-RP\LS-RP\plugins\sscanf.DLL)
+whirlpool.DLL	A: 0x003F0000 - 0x003FC000	(E:\LS-RP\LS-RP\plugins\whirlpool.DLL)
+MSVCR80.dll	A: 0x66040000 - 0x660DB000	(C:\windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll)
+wshtcpip.dll	A: 0x738A0000 - 0x738A5000	(C:\windows\System32\wshtcpip.dll)
+IPHLPAPI.DLL	A: 0x734F0000 - 0x7350C000	(C:\windows\system32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x734E0000 - 0x734E7000	(C:\windows\system32\WINNSI.DLL)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x00000000 Module: (Unknown)
+
+Registers:
+EAX: 0x025B3260	EBX: 0x002C5840	ECX: 0x025B7EFD	EDX: 0x00000000
+ESI: 0x025B7C98	EDI: 0x000001F4	EBP: 0x0073FCA0	ESP: 0x0335FB64
+EFLAGS: 0x00010212
+
+Stack:
++0000: 0x6DB8D0B7   0x025B3260   0x6DC63EA4   0x6DC64EF4
++0010: 0x0073FCA0   0x00002736   0x0073FCA0   0x0073FCA0
++0020: 0x0335FDCC   0x707CDD99   0x00000000   0x002C5840
++0030: 0x0073FCA0   0x0073FCD0   0x000001FF   0x0335FBD0
++0040: 0x0073FCB8   0x0073FCE8   0x6DB8BA65   0x00000000
++0050: 0x00000000   0x00000001   0x00000006   0x00000000
++0060: 0x00000000   0x00000000   0x00000000   0x2E373231
++0070: 0x2E302E30   0x69762031   0x43542061   0x50492F50
++0080: 0x025B0000   0x025B8FE0   0x2865736F   0x61632029
++0090: 0x00006C6C   0x00000000   0x000001F0   0x0335FCEC
++00A0: 0x0000007A   0x025B0000   0x025B7C90   0x0335FCEC
++00B0: 0x77BB3C74   0x77BB3CA3   0x74EDF17C   0x77BAE026
++00C0: 0x025B0554   0x025B0000   0x025B0150   0x74EDF124
++00D0: 0x025B7C98   0x025B0150   0x025B7C98   0x025B0180
++00E0: 0x025B0000   0x000001F0   0x025B3200   0x025B0150
++00F0: 0x0000007F   0x025B3260   0x77BB387A   0x0000007F
++0100: 0x00000000   0x0000007A   0x025B3260   0x00707750
++0110: 0x0000000C   0x00000020   0x00000000   0x06000006
++0120: 0x025B29C8   0x025B00C4   0x025B0150   0x00741690
++0130: 0x00000000   0x0000007F   0x0335FC30   0x7300087B
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00528000	(E:\LS-RP\LS-RP\samp-server.exe)
+ntdll.dll	A: 0x77B80000 - 0x77D00000	(C:\windows\SysWOW64\ntdll.dll)
+kernel32.dll	A: 0x760E0000 - 0x761F0000	(C:\windows\syswow64\kernel32.dll)
+KERNELBASE.dll	A: 0x75BD0000 - 0x75C16000	(C:\windows\syswow64\KERNELBASE.dll)
+SHELL32.dll	A: 0x76A80000 - 0x776CA000	(C:\windows\syswow64\SHELL32.dll)
+msvcrt.dll	A: 0x763F0000 - 0x7649C000	(C:\windows\syswow64\msvcrt.dll)
+SHLWAPI.dll	A: 0x75940000 - 0x75997000	(C:\windows\syswow64\SHLWAPI.dll)
+GDI32.dll	A: 0x76050000 - 0x760E0000	(C:\windows\syswow64\GDI32.dll)
+USER32.dll	A: 0x76980000 - 0x76A80000	(C:\windows\syswow64\USER32.dll)
+ADVAPI32.dll	A: 0x75740000 - 0x757E0000	(C:\windows\syswow64\ADVAPI32.dll)
+sechost.dll	A: 0x75E60000 - 0x75E79000	(C:\windows\SysWOW64\sechost.dll)
+RPCRT4.dll	A: 0x759A0000 - 0x75A90000	(C:\windows\syswow64\RPCRT4.dll)
+SspiCli.dll	A: 0x756E0000 - 0x75740000	(C:\windows\syswow64\SspiCli.dll)
+CRYPTBASE.dll	A: 0x756D0000 - 0x756DC000	(C:\windows\syswow64\CRYPTBASE.dll)
+LPK.dll	A: 0x75A90000 - 0x75A9A000	(C:\windows\syswow64\LPK.dll)
+USP10.dll	A: 0x75C20000 - 0x75CBD000	(C:\windows\syswow64\USP10.dll)
+WSOCK32.dll	A: 0x74D40000 - 0x74D47000	(C:\windows\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x76010000 - 0x76045000	(C:\windows\syswow64\WS2_32.dll)
+NSI.dll	A: 0x77B50000 - 0x77B56000	(C:\windows\syswow64\NSI.dll)
+WINMM.dll	A: 0x737F0000 - 0x73822000	(C:\windows\system32\WINMM.dll)
+IMM32.DLL	A: 0x75AA0000 - 0x75B00000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x75B00000 - 0x75BCC000	(C:\windows\syswow64\MSCTF.dll)
+apphelp.dll	A: 0x724B0000 - 0x724FC000	(C:\windows\system32\apphelp.dll)
+streamer.DLL	A: 0x73200000 - 0x7323E000	(E:\LS-RP\LS-RP\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x73190000 - 0x731F9000	(E:\LS-RP\LS-RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x730D0000 - 0x7318F000	(E:\LS-RP\LS-RP\MSVCR100.dll)
+mysql.DLL	A: 0x70AA0000 - 0x70B74000	(E:\LS-RP\LS-RP\plugins\mysql.DLL)
+LIBMYSQL.dll	A: 0x6DB80000 - 0x6DE59000	(E:\LS-RP\LS-RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x70A10000 - 0x70A95000	(E:\LS-RP\LS-RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x707C0000 - 0x70896000	(E:\LS-RP\LS-RP\MSVCR110.dll)
+NLAapi.dll	A: 0x73520000 - 0x73530000	(C:\windows\system32\NLAapi.dll)
+napinsp.dll	A: 0x73510000 - 0x73520000	(C:\windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x734A0000 - 0x734B2000	(C:\windows\system32\pnrpnsp.dll)
+mswsock.dll	A: 0x73560000 - 0x7359C000	(C:\windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73450000 - 0x73494000	(C:\windows\system32\DNSAPI.dll)
+winrnr.dll	A: 0x73440000 - 0x73448000	(C:\windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x74380000 - 0x74386000	(C:\windows\system32\rasadhlp.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000C000	(E:\LS-RP\LS-RP\plugins\sscanf.DLL)
+whirlpool.DLL	A: 0x00350000 - 0x0035C000	(E:\LS-RP\LS-RP\plugins\whirlpool.DLL)
+MSVCR80.dll	A: 0x70970000 - 0x70A0B000	(C:\windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll)
+wshtcpip.dll	A: 0x73550000 - 0x73555000	(C:\windows\System32\wshtcpip.dll)
+IPHLPAPI.DLL	A: 0x73420000 - 0x7343C000	(C:\windows\system32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x73410000 - 0x73417000	(C:\windows\system32\WINNSI.DLL)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x77BB43B0 Module: (ntdll.dll)
+
+Registers:
+EAX: 0x01FB29C8	EBX: 0x01FB2FB0	ECX: 0xFFFFFFFF	EDX: 0x01FB7C98
+ESI: 0x01FB29C0	EDI: 0x01FB0000	EBP: 0x08F7FCD0	ESP: 0x08F7FCA8
+EFLAGS: 0x00010246
+
+Stack:
++0000: 0x01FB0000   0x01FB2FB0   0x00000000   0x0269DAD8
++0010: 0x00000000   0x45010044   0x00637750   0xFFFFFFFF
++0020: 0x00000018   0x0063755C   0x08F7FDC8   0x77BB3587
++0030: 0x01FB0000   0x01FB2FB0   0x08F7FD98   0x00000000
++0040: 0x7F2F7202   0x00000000   0x01FB0000   0x01FB2FB8
++0050: 0x00380000   0x00000010   0x023441B8   0x08F7FDF4
++0060: 0x77BB389E   0x00380138   0x77BB387A   0x7F2F723E
++0070: 0x00000000   0x01FB0000   0x01FB0150   0x003F0000
++0080: 0x003F0150   0x6DD8DCFF   0x08F7FDA4   0x003F0150
++0090: 0x40000040   0x02419280   0x00380150   0x00000044
++00A0: 0x00000003   0x00380150   0x00000003   0x75BE0962
++00B0: 0x00380150   0x02000002   0x00000001   0x76000076
++00C0: 0x00000044   0xB67FC4E6   0x0269E140   0x00000003
++00D0: 0x08F7FE14   0x00000000   0x00000076   0x00000000
++00E0: 0x06000305   0x00000044   0x00000000   0x05659868
++00F0: 0x00000044   0x00000000   0x01000044   0x00380180
++0100: 0x00000000   0x01010150   0x08F7FCE8   0x08F7F6F4
++0110: 0x08F7FE2C   0x77BF1ECD   0x0062478A   0x00000000
++0120: 0x08F7FDE8   0x77BB3472   0x01FB2FB0   0x01FB2FB8
++0130: 0x01FB2FB8   0x6B4B4FE8   0x7EFDE000   0x01FB2FB0
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00528000	(E:\LS-RP\LS-RP\samp-server.exe)
+ntdll.dll	A: 0x77B80000 - 0x77D00000	(C:\windows\SysWOW64\ntdll.dll)
+kernel32.dll	A: 0x760E0000 - 0x761F0000	(C:\windows\syswow64\kernel32.dll)
+KERNELBASE.dll	A: 0x75BD0000 - 0x75C16000	(C:\windows\syswow64\KERNELBASE.dll)
+SHELL32.dll	A: 0x76A80000 - 0x776CA000	(C:\windows\syswow64\SHELL32.dll)
+msvcrt.dll	A: 0x763F0000 - 0x7649C000	(C:\windows\syswow64\msvcrt.dll)
+SHLWAPI.dll	A: 0x75940000 - 0x75997000	(C:\windows\syswow64\SHLWAPI.dll)
+GDI32.dll	A: 0x76050000 - 0x760E0000	(C:\windows\syswow64\GDI32.dll)
+USER32.dll	A: 0x76980000 - 0x76A80000	(C:\windows\syswow64\USER32.dll)
+ADVAPI32.dll	A: 0x75740000 - 0x757E0000	(C:\windows\syswow64\ADVAPI32.dll)
+sechost.dll	A: 0x75E60000 - 0x75E79000	(C:\windows\SysWOW64\sechost.dll)
+RPCRT4.dll	A: 0x759A0000 - 0x75A90000	(C:\windows\syswow64\RPCRT4.dll)
+SspiCli.dll	A: 0x756E0000 - 0x75740000	(C:\windows\syswow64\SspiCli.dll)
+CRYPTBASE.dll	A: 0x756D0000 - 0x756DC000	(C:\windows\syswow64\CRYPTBASE.dll)
+LPK.dll	A: 0x75A90000 - 0x75A9A000	(C:\windows\syswow64\LPK.dll)
+USP10.dll	A: 0x75C20000 - 0x75CBD000	(C:\windows\syswow64\USP10.dll)
+WSOCK32.dll	A: 0x74D40000 - 0x74D47000	(C:\windows\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x76010000 - 0x76045000	(C:\windows\syswow64\WS2_32.dll)
+NSI.dll	A: 0x77B50000 - 0x77B56000	(C:\windows\syswow64\NSI.dll)
+WINMM.dll	A: 0x737F0000 - 0x73822000	(C:\windows\system32\WINMM.dll)
+IMM32.DLL	A: 0x75AA0000 - 0x75B00000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x75B00000 - 0x75BCC000	(C:\windows\syswow64\MSCTF.dll)
+streamer.DLL	A: 0x731C0000 - 0x731FE000	(E:\LS-RP\LS-RP\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x73150000 - 0x731B9000	(E:\LS-RP\LS-RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x70AC0000 - 0x70B7F000	(E:\LS-RP\LS-RP\MSVCR100.dll)
+mysql.DLL	A: 0x709E0000 - 0x70AB4000	(E:\LS-RP\LS-RP\plugins\mysql.DLL)
+LIBMYSQL.dll	A: 0x6B260000 - 0x6B539000	(E:\LS-RP\LS-RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x70810000 - 0x70895000	(E:\LS-RP\LS-RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x6DD80000 - 0x6DE56000	(E:\LS-RP\LS-RP\MSVCR110.dll)
+NLAapi.dll	A: 0x73520000 - 0x73530000	(C:\windows\system32\NLAapi.dll)
+napinsp.dll	A: 0x73510000 - 0x73520000	(C:\windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x734A0000 - 0x734B2000	(C:\windows\system32\pnrpnsp.dll)
+mswsock.dll	A: 0x73560000 - 0x7359C000	(C:\windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73450000 - 0x73494000	(C:\windows\system32\DNSAPI.dll)
+winrnr.dll	A: 0x73440000 - 0x73448000	(C:\windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x74380000 - 0x74386000	(C:\windows\system32\rasadhlp.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000C000	(E:\LS-RP\LS-RP\plugins\sscanf.DLL)
+whirlpool.DLL	A: 0x00350000 - 0x0035C000	(E:\LS-RP\LS-RP\plugins\whirlpool.DLL)
+MSVCR80.dll	A: 0x6DCE0000 - 0x6DD7B000	(C:\windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll)
+wshtcpip.dll	A: 0x73550000 - 0x73555000	(C:\windows\System32\wshtcpip.dll)
+IPHLPAPI.DLL	A: 0x73420000 - 0x7343C000	(C:\windows\system32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x73410000 - 0x73417000	(C:\windows\system32\WINNSI.DLL)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x00000000 Module: (Unknown)
+
+Registers:
+EAX: 0x002F3040	EBX: 0x00335880	ECX: 0x002F7CDD	EDX: 0x00000000
+ESI: 0x002F7A78	EDI: 0x000001F4	EBP: 0x006FEB10	ESP: 0x0338FB64
+EFLAGS: 0x00010212
+
+Stack:
++0000: 0x6648D0B7   0x002F3040   0x66563EA4   0x66564EF4
++0010: 0x006FEB10   0x00002736   0x006FEB10   0x006FEB10
++0020: 0x0338FDCC   0x707CDD99   0x00000000   0x00335880
++0030: 0x006FEB10   0x006FEB40   0x000001FF   0x0338FBD0
++0040: 0x006FEB28   0x006FEB58   0x6648BA65   0x00000000
++0050: 0x00000000   0x00000001   0x00000006   0x00000000
++0060: 0x00000000   0x00000000   0x00000000   0x2E373231
++0070: 0x2E302E30   0x69762031   0x43542061   0x50492F50
++0080: 0x002F0000   0x002F8FE0   0x2865736F   0x61632029
++0090: 0x00006C6C   0x00000000   0x00000234   0x0338FCEC
++00A0: 0x0000007A   0x002F0000   0x002F7A70   0x0338FCEC
++00B0: 0x77BB3C74   0x77BB3CA3   0x74E2E778   0x77BAE026
++00C0: 0x002F0554   0x002F0000   0x002F0150   0x74E2E720
++00D0: 0x002F7A78   0x002F0150   0x002F7A78   0x002F0180
++00E0: 0x002F0000   0x00000234   0x002F3000   0x002F0150
++00F0: 0x0000007F   0x002F3040   0x77BB387A   0x0000007F
++0100: 0x00000000   0x0000007A   0x002F3040   0x006C7750
++0110: 0x0000000C   0x00000020   0x00000000   0x4A00004A
++0120: 0x002F0D38   0x002F00C4   0x002F0150   0x006FF688
++0130: 0x00000000   0x0000007F   0x0338FC30   0x7300087B
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(E:\LS-RP\LS-RP\samp-server.exe)
+ntdll.dll	A: 0x77B80000 - 0x77D00000	(C:\windows\SysWOW64\ntdll.dll)
+kernel32.dll	A: 0x760E0000 - 0x761F0000	(C:\windows\syswow64\kernel32.dll)
+KERNELBASE.dll	A: 0x75BD0000 - 0x75C16000	(C:\windows\syswow64\KERNELBASE.dll)
+SHELL32.dll	A: 0x76A80000 - 0x776CA000	(C:\windows\syswow64\SHELL32.dll)
+msvcrt.dll	A: 0x763F0000 - 0x7649C000	(C:\windows\syswow64\msvcrt.dll)
+SHLWAPI.dll	A: 0x75940000 - 0x75997000	(C:\windows\syswow64\SHLWAPI.dll)
+GDI32.dll	A: 0x76050000 - 0x760E0000	(C:\windows\syswow64\GDI32.dll)
+USER32.dll	A: 0x76980000 - 0x76A80000	(C:\windows\syswow64\USER32.dll)
+ADVAPI32.dll	A: 0x75740000 - 0x757E0000	(C:\windows\syswow64\ADVAPI32.dll)
+sechost.dll	A: 0x75E60000 - 0x75E79000	(C:\windows\SysWOW64\sechost.dll)
+RPCRT4.dll	A: 0x759A0000 - 0x75A90000	(C:\windows\syswow64\RPCRT4.dll)
+SspiCli.dll	A: 0x756E0000 - 0x75740000	(C:\windows\syswow64\SspiCli.dll)
+CRYPTBASE.dll	A: 0x756D0000 - 0x756DC000	(C:\windows\syswow64\CRYPTBASE.dll)
+LPK.dll	A: 0x75A90000 - 0x75A9A000	(C:\windows\syswow64\LPK.dll)
+USP10.dll	A: 0x75C20000 - 0x75CBD000	(C:\windows\syswow64\USP10.dll)
+WSOCK32.dll	A: 0x74D40000 - 0x74D47000	(C:\windows\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x76010000 - 0x76045000	(C:\windows\syswow64\WS2_32.dll)
+NSI.dll	A: 0x77B50000 - 0x77B56000	(C:\windows\syswow64\NSI.dll)
+WINMM.dll	A: 0x737F0000 - 0x73822000	(C:\windows\system32\WINMM.dll)
+IMM32.DLL	A: 0x75AA0000 - 0x75B00000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x75B00000 - 0x75BCC000	(C:\windows\syswow64\MSCTF.dll)
+streamer.DLL	A: 0x73150000 - 0x7318E000	(E:\LS-RP\LS-RP\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x70B10000 - 0x70B79000	(E:\LS-RP\LS-RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x70A50000 - 0x70B0F000	(E:\LS-RP\LS-RP\MSVCR100.dll)
+mysql.DLL	A: 0x70970000 - 0x70A44000	(E:\LS-RP\LS-RP\plugins\mysql.DLL)
+LIBMYSQL.dll	A: 0x66480000 - 0x66759000	(E:\LS-RP\LS-RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x6DDD0000 - 0x6DE55000	(E:\LS-RP\LS-RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x707C0000 - 0x70896000	(E:\LS-RP\LS-RP\MSVCR110.dll)
+NLAapi.dll	A: 0x73520000 - 0x73530000	(C:\windows\system32\NLAapi.dll)
+napinsp.dll	A: 0x73510000 - 0x73520000	(C:\windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x734A0000 - 0x734B2000	(C:\windows\system32\pnrpnsp.dll)
+mswsock.dll	A: 0x73560000 - 0x7359C000	(C:\windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73450000 - 0x73494000	(C:\windows\system32\DNSAPI.dll)
+winrnr.dll	A: 0x73440000 - 0x73448000	(C:\windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x74380000 - 0x74386000	(C:\windows\system32\rasadhlp.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000C000	(E:\LS-RP\LS-RP\plugins\sscanf.DLL)
+whirlpool.DLL	A: 0x003D0000 - 0x003DC000	(E:\LS-RP\LS-RP\plugins\whirlpool.DLL)
+MSVCR80.dll	A: 0x6DD30000 - 0x6DDCB000	(C:\windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll)
+wshtcpip.dll	A: 0x73550000 - 0x73555000	(C:\windows\System32\wshtcpip.dll)
+IPHLPAPI.DLL	A: 0x73420000 - 0x7343C000	(C:\windows\system32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x73410000 - 0x73417000	(C:\windows\system32\WINNSI.DLL)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x6149623A Module: (LIBMYSQL.dll)
+
+Registers:
+EAX: 0x00000000	EBX: 0xFFFFFFFF	ECX: 0x7EFA9000	EDX: 0x00002714
+ESI: 0x0270F410	EDI: 0x00000004	EBP: 0x08F10050	ESP: 0x08EFFD64
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x0270F410   0x08EFFEF4   0x00600900   0x00000000
++0010: 0x614962FA   0x08EFFD98   0x0270F410   0x0270F410
++0020: 0x00600900   0x005860C8   0x6148BB74   0x0270F410
++0030: 0x6148C495   0x00000000   0x0270F410   0x00600900
++0040: 0x6148DFED   0x0270F410   0x0270F410   0x08EFFEF4
++0050: 0x005860C8   0x6148BBBD   0x0270F410   0x005FD498
++0060: 0x7205F4AA   0x0270F410   0x0A4A52B8   0x00000045
++0070: 0x45B6C418   0x00603B08   0x00600900   0x00603AC8
++0080: 0x3835E277   0x006008C8   0x00600900   0x76051A2C
++0090: 0x00000000   0x08EFFE14   0x00000000   0x0000000A
++00A0: 0x00000000   0x00000001   0x0000000A   0x00000000
++00B0: 0x000001D0   0x45B6C7AC   0x08EFFEF8   0x005FC050
++00C0: 0x72053920   0x08EFFD60   0x08EFFF10   0x08EFFF10
++00D0: 0x08EFFE50   0x76054238   0x00000001   0x7EFDE000
++00E0: 0x00000000   0x0000000A   0x00000000   0x08EFFED8
++00F0: 0x72054D0A   0x53794D43   0x75514C51   0x3A797265
++0100: 0x6578453A   0x65747563   0x516E4F5B   0x79726575
++0110: 0x696E6946   0x69286873   0x005D2969   0x00603B08
++0120: 0x08EFFEE0   0x720557C6   0x5D296928   0x4C246DC1
++0130: 0x01D2DDFA   0xC3247160   0x000001D0   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00528000	(E:\LS-RP\LS-RP\samp-server.exe)
+ntdll.dll	A: 0x772F0000 - 0x77470000	(C:\windows\SysWOW64\ntdll.dll)
+kernel32.dll	A: 0x76040000 - 0x76150000	(C:\windows\syswow64\kernel32.dll)
+KERNELBASE.dll	A: 0x75660000 - 0x756A6000	(C:\windows\syswow64\KERNELBASE.dll)
+SHELL32.dll	A: 0x76150000 - 0x76D9A000	(C:\windows\syswow64\SHELL32.dll)
+msvcrt.dll	A: 0x75A50000 - 0x75AFC000	(C:\windows\syswow64\msvcrt.dll)
+SHLWAPI.dll	A: 0x76E90000 - 0x76EE7000	(C:\windows\syswow64\SHLWAPI.dll)
+GDI32.dll	A: 0x75090000 - 0x75120000	(C:\windows\syswow64\GDI32.dll)
+USER32.dll	A: 0x75780000 - 0x75880000	(C:\windows\syswow64\USER32.dll)
+ADVAPI32.dll	A: 0x75910000 - 0x759B0000	(C:\windows\syswow64\ADVAPI32.dll)
+sechost.dll	A: 0x75710000 - 0x75729000	(C:\windows\SysWOW64\sechost.dll)
+RPCRT4.dll	A: 0x76DA0000 - 0x76E90000	(C:\windows\syswow64\RPCRT4.dll)
+SspiCli.dll	A: 0x74E50000 - 0x74EB0000	(C:\windows\syswow64\SspiCli.dll)
+CRYPTBASE.dll	A: 0x74E40000 - 0x74E4C000	(C:\windows\syswow64\CRYPTBASE.dll)
+LPK.dll	A: 0x75B90000 - 0x75B9A000	(C:\windows\syswow64\LPK.dll)
+USP10.dll	A: 0x759B0000 - 0x75A4D000	(C:\windows\syswow64\USP10.dll)
+WSOCK32.dll	A: 0x6D030000 - 0x6D037000	(C:\windows\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x75E60000 - 0x75E95000	(C:\windows\syswow64\WS2_32.dll)
+NSI.dll	A: 0x75EA0000 - 0x75EA6000	(C:\windows\syswow64\NSI.dll)
+WINMM.dll	A: 0x72F60000 - 0x72F92000	(C:\windows\system32\WINMM.dll)
+IMM32.DLL	A: 0x75320000 - 0x75380000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x75BB0000 - 0x75C7C000	(C:\windows\syswow64\MSCTF.dll)
+streamer.DLL	A: 0x741C0000 - 0x741FE000	(E:\LS-RP\LS-RP\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x728D0000 - 0x72939000	(E:\LS-RP\LS-RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x72810000 - 0x728CF000	(E:\LS-RP\LS-RP\MSVCR100.dll)
+mysql.DLL	A: 0x72050000 - 0x72124000	(E:\LS-RP\LS-RP\plugins\mysql.DLL)
+LIBMYSQL.dll	A: 0x61480000 - 0x61759000	(E:\LS-RP\LS-RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x72180000 - 0x72205000	(E:\LS-RP\LS-RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x61D70000 - 0x61E46000	(E:\LS-RP\LS-RP\MSVCR110.dll)
+NLAapi.dll	A: 0x72C90000 - 0x72CA0000	(C:\windows\system32\NLAapi.dll)
+napinsp.dll	A: 0x72C80000 - 0x72C90000	(C:\windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x72C10000 - 0x72C22000	(C:\windows\system32\pnrpnsp.dll)
+mswsock.dll	A: 0x72CD0000 - 0x72D0C000	(C:\windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x72BC0000 - 0x72C04000	(C:\windows\system32\DNSAPI.dll)
+winrnr.dll	A: 0x72BB0000 - 0x72BB8000	(C:\windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x73B00000 - 0x73B06000	(C:\windows\system32\rasadhlp.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000C000	(E:\LS-RP\LS-RP\plugins\sscanf.DLL)
+whirlpool.DLL	A: 0x00380000 - 0x0038C000	(E:\LS-RP\LS-RP\plugins\whirlpool.DLL)
+MSVCR80.dll	A: 0x62BC0000 - 0x62C5B000	(C:\windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll)
+wshtcpip.dll	A: 0x72CC0000 - 0x72CC5000	(C:\windows\System32\wshtcpip.dll)
+IPHLPAPI.DLL	A: 0x72B90000 - 0x72BAC000	(C:\windows\system32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x72B80000 - 0x72B87000	(C:\windows\system32\WINNSI.DLL)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x00000000 Module: (Unknown)
+
+Registers:
+EAX: 0x00000000	EBX: 0xFFFFFFFF	ECX: 0x00000000	EDX: 0x08F0F96C
+ESI: 0x01EBF208	EDI: 0x00000224	EBP: 0x002AEB10	ESP: 0x08F0FB2C
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x61C86152   0x08F1C048   0x00000224   0x002AEB10
++0010: 0x01EC39B0   0x00000000   0x61C862FA   0x08F0FB68
++0020: 0x00000224   0x01EBF208   0x01EC39B0   0x00000224
++0030: 0x0000FFFF   0x00000008   0x61C7C495   0x01EBF208
++0040: 0x01EBF208   0x01EC39B0   0x61C7D1C4   0x01EBF208
++0050: 0x002AEB10   0x002AEB10   0x08F0FDCC   0x61B0DD99
++0060: 0x00000000   0x01EC39B0   0x002AEB10   0x002AEB40
++0070: 0x000001FF   0x08F0FBD0   0x002AEB28   0x002AEB58
++0080: 0x61C7BA65   0x00000000   0x00000000   0x00000001
++0090: 0x00000006   0x00000000   0x00000000   0x00000000
++00A0: 0x00000000   0x2E373231   0x2E302E30   0x69762031
++00B0: 0x43542061   0x50492F50   0x01EB0000   0x01EBFFE0
++00C0: 0x2865736F   0x61632029   0x53006C6C   0x00000000
++00D0: 0x00000142   0x08F0FCEC   0x0000007A   0x01EB0000
++00E0: 0x01EBF200   0x08F0FCEC   0x77373C74   0x77373CA3
++00F0: 0x7FAC3FBD   0x7736E026   0x01EB0554   0x01EB0000
++0100: 0x01EB0150   0x7FAC3FE5   0x01EBF5D8   0x01EB0150
++0110: 0x01EB0F58   0x01EB0180   0x01EB0000   0x00000142
++0120: 0x01EBF200   0x01EB0150   0x0000007F   0x01EB2FB8
++0130: 0x7737387A   0x0000007F   0x00000000   0x0000007A
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00528000	(E:\LS-RP\LS-RP\samp-server.exe)
+ntdll.dll	A: 0x77340000 - 0x774C0000	(C:\windows\SysWOW64\ntdll.dll)
+kernel32.dll	A: 0x761A0000 - 0x762B0000	(C:\windows\syswow64\kernel32.dll)
+KERNELBASE.dll	A: 0x76E20000 - 0x76E66000	(C:\windows\syswow64\KERNELBASE.dll)
+SHELL32.dll	A: 0x75430000 - 0x7607A000	(C:\windows\syswow64\SHELL32.dll)
+msvcrt.dll	A: 0x76080000 - 0x7612C000	(C:\windows\syswow64\msvcrt.dll)
+SHLWAPI.dll	A: 0x76140000 - 0x76197000	(C:\windows\syswow64\SHLWAPI.dll)
+GDI32.dll	A: 0x74F00000 - 0x74F90000	(C:\windows\syswow64\GDI32.dll)
+USER32.dll	A: 0x74F90000 - 0x75090000	(C:\windows\syswow64\USER32.dll)
+ADVAPI32.dll	A: 0x765E0000 - 0x76680000	(C:\windows\syswow64\ADVAPI32.dll)
+sechost.dll	A: 0x76540000 - 0x76559000	(C:\windows\SysWOW64\sechost.dll)
+RPCRT4.dll	A: 0x768C0000 - 0x769B0000	(C:\windows\syswow64\RPCRT4.dll)
+SspiCli.dll	A: 0x74EA0000 - 0x74F00000	(C:\windows\syswow64\SspiCli.dll)
+CRYPTBASE.dll	A: 0x74E90000 - 0x74E9C000	(C:\windows\syswow64\CRYPTBASE.dll)
+LPK.dll	A: 0x75420000 - 0x7542A000	(C:\windows\syswow64\LPK.dll)
+USP10.dll	A: 0x76CF0000 - 0x76D8D000	(C:\windows\syswow64\USP10.dll)
+WSOCK32.dll	A: 0x6D350000 - 0x6D357000	(C:\windows\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x76F00000 - 0x76F35000	(C:\windows\syswow64\WS2_32.dll)
+NSI.dll	A: 0x76130000 - 0x76136000	(C:\windows\syswow64\NSI.dll)
+WINMM.dll	A: 0x72FB0000 - 0x72FE2000	(C:\windows\system32\WINMM.dll)
+IMM32.DLL	A: 0x750E0000 - 0x75140000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76470000 - 0x7653C000	(C:\windows\syswow64\MSCTF.dll)
+streamer.DLL	A: 0x6DA10000 - 0x6DA4E000	(E:\LS-RP\LS-RP\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x6D950000 - 0x6D9B9000	(E:\LS-RP\LS-RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x62290000 - 0x6234F000	(E:\LS-RP\LS-RP\MSVCR100.dll)
+mysql.DLL	A: 0x621B0000 - 0x62284000	(E:\LS-RP\LS-RP\plugins\mysql.DLL)
+LIBMYSQL.dll	A: 0x61C70000 - 0x61F49000	(E:\LS-RP\LS-RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x61BE0000 - 0x61C65000	(E:\LS-RP\LS-RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x61B00000 - 0x61BD6000	(E:\LS-RP\LS-RP\MSVCR110.dll)
+NLAapi.dll	A: 0x72CE0000 - 0x72CF0000	(C:\windows\system32\NLAapi.dll)
+napinsp.dll	A: 0x72CD0000 - 0x72CE0000	(C:\windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x72C60000 - 0x72C72000	(C:\windows\system32\pnrpnsp.dll)
+mswsock.dll	A: 0x72D20000 - 0x72D5C000	(C:\windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x72C10000 - 0x72C54000	(C:\windows\system32\DNSAPI.dll)
+winrnr.dll	A: 0x72C00000 - 0x72C08000	(C:\windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x722D0000 - 0x722D6000	(C:\windows\system32\rasadhlp.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000C000	(E:\LS-RP\LS-RP\plugins\sscanf.DLL)
+whirlpool.DLL	A: 0x003F0000 - 0x003FC000	(E:\LS-RP\LS-RP\plugins\whirlpool.DLL)
+MSVCR80.dll	A: 0x61A60000 - 0x61AFB000	(C:\windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll)
+wshtcpip.dll	A: 0x72D10000 - 0x72D15000	(C:\windows\System32\wshtcpip.dll)
+IPHLPAPI.DLL	A: 0x72BE0000 - 0x72BFC000	(C:\windows\system32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x72BD0000 - 0x72BD7000	(C:\windows\system32\WINNSI.DLL)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x00000000 Module: (Unknown)
+
+Registers:
+EAX: 0x003B2E90	EBX: 0x0215A208	ECX: 0x003B7EFD	EDX: 0x00000000
+ESI: 0x003B7C98	EDI: 0x000001E4	EBP: 0x00660CC8	ESP: 0x090FFB64
+EFLAGS: 0x00010212
+
+Stack:
++0000: 0x6D46D0B7   0x003B2E90   0x6D543EA4   0x6D544EF4
++0010: 0x00660CC8   0x00002736   0x00660CC8   0x00660CC8
++0020: 0x090FFDCC   0x6D8FDD99   0x00000000   0x0215A208
++0030: 0x00660CC8   0x00660CF8   0x000001FF   0x090FFBD0
++0040: 0x00660CE0   0x00660D10   0x6D46BA65   0x00000000
++0050: 0x00000000   0x00000001   0x00000006   0x00000000
++0060: 0x00000000   0x00000000   0x00000000   0x2E373231
++0070: 0x2E302E30   0x69762031   0x43542061   0x50492F50
++0080: 0x003B0000   0x003B8FE0   0x2865736F   0x61632029
++0090: 0x00006C6C   0x00000000   0x000001F0   0x090FFCEC
++00A0: 0x0000007A   0x003B0000   0x003B7C90   0x090FFCEC
++00B0: 0x77AC3CA4   0x77AC3CD3   0x7EA9336B   0x77ABE046
++00C0: 0x003B0554   0x003B0000   0x003B0150   0x7EA93333
++00D0: 0x003B7C98   0x003B0150   0x003B7C98   0x003B0180
++00E0: 0x003B0000   0x000001F0   0x003B3200   0x003B0150
++00F0: 0x0000007F   0x003B3260   0x77AC38AA   0x0000007F
++0100: 0x00000000   0x0000007A   0x003B3260   0x00668290
++0110: 0x0000000C   0x00000020   0x00000000   0x0E00000E
++0120: 0x003B0C10   0x003B00C4   0x003B0150   0x00692E30
++0130: 0x00000000   0x0000007F   0x090FFC30   0x7300087B
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00528000	(C:\Users\Administrator\Downloads\LS-RP\samp-server.exe)
+ntdll.dll	A: 0x77A90000 - 0x77C10000	(C:\Windows\SysWOW64\ntdll.dll)
+kernel32.dll	A: 0x77220000 - 0x77330000	(C:\Windows\syswow64\kernel32.dll)
+KERNELBASE.dll	A: 0x771C0000 - 0x77207000	(C:\Windows\syswow64\KERNELBASE.dll)
+SHELL32.dll	A: 0x75790000 - 0x763DA000	(C:\Windows\syswow64\SHELL32.dll)
+msvcrt.dll	A: 0x76EE0000 - 0x76F8C000	(C:\Windows\syswow64\msvcrt.dll)
+SHLWAPI.dll	A: 0x76550000 - 0x765A7000	(C:\Windows\syswow64\SHLWAPI.dll)
+GDI32.dll	A: 0x76C30000 - 0x76CC0000	(C:\Windows\syswow64\GDI32.dll)
+USER32.dll	A: 0x76890000 - 0x76990000	(C:\Windows\syswow64\USER32.dll)
+ADVAPI32.dll	A: 0x770F0000 - 0x77190000	(C:\Windows\syswow64\ADVAPI32.dll)
+sechost.dll	A: 0x77670000 - 0x77689000	(C:\Windows\SysWOW64\sechost.dll)
+RPCRT4.dll	A: 0x769A0000 - 0x76A90000	(C:\Windows\syswow64\RPCRT4.dll)
+SspiCli.dll	A: 0x75430000 - 0x75490000	(C:\Windows\syswow64\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75420000 - 0x7542C000	(C:\Windows\syswow64\CRYPTBASE.dll)
+LPK.dll	A: 0x76ED0000 - 0x76EDA000	(C:\Windows\syswow64\LPK.dll)
+USP10.dll	A: 0x767F0000 - 0x7688D000	(C:\Windows\syswow64\USP10.dll)
+WSOCK32.dll	A: 0x73F30000 - 0x73F37000	(C:\Windows\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x76510000 - 0x76545000	(C:\Windows\syswow64\WS2_32.dll)
+NSI.dll	A: 0x77210000 - 0x77216000	(C:\Windows\syswow64\NSI.dll)
+WINMM.dll	A: 0x73BC0000 - 0x73BF2000	(C:\Windows\system32\WINMM.dll)
+IMM32.DLL	A: 0x763E0000 - 0x76440000	(C:\Windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x773E0000 - 0x774AC000	(C:\Windows\syswow64\MSCTF.dll)
+shutdownCtrl.dll	A: 0x75340000 - 0x75359000	(C:\Windows\system32\shutdownCtrl.dll)
+streamer.DLL	A: 0x73850000 - 0x7388E000	(C:\Users\Administrator\Downloads\LS-RP\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x72C10000 - 0x72C79000	(C:\Users\Administrator\Downloads\LS-RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x72B50000 - 0x72C0F000	(C:\Users\Administrator\Downloads\LS-RP\MSVCR100.dll)
+mysql.DLL	A: 0x6FB80000 - 0x6FC54000	(C:\Users\Administrator\Downloads\LS-RP\plugins\mysql.DLL)
+LIBMYSQL.dll	A: 0x6D460000 - 0x6D739000	(C:\Users\Administrator\Downloads\LS-RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x6FC70000 - 0x6FCF5000	(C:\Users\Administrator\Downloads\LS-RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x6D8F0000 - 0x6D9C6000	(C:\Users\Administrator\Downloads\LS-RP\MSVCR110.dll)
+NLAapi.dll	A: 0x6FC60000 - 0x6FC70000	(C:\Windows\system32\NLAapi.dll)
+napinsp.dll	A: 0x6DB50000 - 0x6DB60000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x6DB30000 - 0x6DB42000	(C:\Windows\system32\pnrpnsp.dll)
+mswsock.dll	A: 0x74C50000 - 0x74C8C000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x725F0000 - 0x72634000	(C:\Windows\system32\DNSAPI.dll)
+winrnr.dll	A: 0x6DB20000 - 0x6DB28000	(C:\Windows\System32\winrnr.dll)
+wshbth.dll	A: 0x6DB10000 - 0x6DB1D000	(C:\Windows\system32\wshbth.dll)
+rasadhlp.dll	A: 0x725E0000 - 0x725E6000	(C:\Windows\system32\rasadhlp.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000C000	(C:\Users\Administrator\Downloads\LS-RP\plugins\sscanf.DLL)
+whirlpool.DLL	A: 0x002D0000 - 0x002DC000	(C:\Users\Administrator\Downloads\LS-RP\plugins\whirlpool.DLL)
+MSVCR80.dll	A: 0x6FAE0000 - 0x6FB7B000	(C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll)
+wshtcpip.dll	A: 0x74C40000 - 0x74C45000	(C:\Windows\System32\wshtcpip.dll)
+IPHLPAPI.DLL	A: 0x73B80000 - 0x73B9C000	(C:\Windows\system32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x73B70000 - 0x73B77000	(C:\Windows\system32\WINNSI.DLL)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x00401696 Module: (samp-server.exe)
+
+Registers:
+EAX: 0x003CF258	EBX: 0x00000000	ECX: 0x4637347B	EDX: 0x02E8F27D
+ESI: 0x00000000	EDI: 0x020DD5C0	EBP: 0x758B10FF	ESP: 0x0018FDB0
+EFLAGS: 0x00010216
+
+Stack:
++0000: 0x00401726   0x003CF258   0x0018FDCC   0x020DD5C0
++0010: 0x00000000   0x758B10FF   0x00000000   0x758B16C5
++0020: 0x0000015C   0x091D6430   0x02FC9428   0x0044EA22
++0030: 0x1893FF38   0x00000323   0x3BA537AF   0x0049EEF9
++0040: 0x00480C41   0x003CF258   0x02E8F27D   0x0018FE1C
++0050: 0x758B1136   0x020D93E0   0x758B10FF   0x3BA537AF
++0060: 0x000D8C48   0x00000001   0x00000000   0x004912BA
++0070: 0x00000000   0x004912C7   0x758B16C5   0x00000000
++0080: 0x3BA537AF   0x0048D4DB   0x00000000   0x00001DB1
++0090: 0x0018FF88   0x7EFDE000   0x0100E000   0x00010101
++00A0: 0x00000064   0x00001E61   0x000000A0   0x00001274
++00B0: 0x020D93E0   0x656D6167   0x65646F6D   0x00003531
++00C0: 0x004C4020   0x004C401C   0x7EFDE000   0x004AB4A0
++00D0: 0x0018FE70   0x0018FF78   0x0018FF78   0x0049D208
++00E0: 0x004BA2F8   0xFFFFFFFF   0x0049B4A1   0x0049B4B1
++00F0: 0x004AB4A0   0x0018FF78   0x004AB0E1   0xFFFFFFFF
++0100: 0x0049CCA6   0x00000001   0x020D14B0   0x020D14F8
++0110: 0x00000094   0x00000006   0x00000001   0x00001DB1
++0120: 0x00000002   0x76726553   0x20656369   0x6B636150
++0130: 0x00003120   0x00000000   0x00000000   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Downloads\LS-RP\samp-server.exe)
+ntdll.dll	A: 0x77600000 - 0x77780000	(C:\windows\SysWOW64\ntdll.dll)
+kernel32.dll	A: 0x758A0000 - 0x759B0000	(C:\windows\syswow64\kernel32.dll)
+KERNELBASE.dll	A: 0x75B80000 - 0x75BC6000	(C:\windows\syswow64\KERNELBASE.dll)
+SHELL32.dll	A: 0x76450000 - 0x7709A000	(C:\windows\syswow64\SHELL32.dll)
+msvcrt.dll	A: 0x75740000 - 0x757EC000	(C:\windows\syswow64\msvcrt.dll)
+SHLWAPI.dll	A: 0x75BD0000 - 0x75C27000	(C:\windows\syswow64\SHLWAPI.dll)
+GDI32.dll	A: 0x759B0000 - 0x75A40000	(C:\windows\syswow64\GDI32.dll)
+USER32.dll	A: 0x75E60000 - 0x75F60000	(C:\windows\syswow64\USER32.dll)
+ADVAPI32.dll	A: 0x76290000 - 0x76330000	(C:\windows\syswow64\ADVAPI32.dll)
+sechost.dll	A: 0x76070000 - 0x76089000	(C:\windows\SysWOW64\sechost.dll)
+RPCRT4.dll	A: 0x75510000 - 0x75600000	(C:\windows\syswow64\RPCRT4.dll)
+SspiCli.dll	A: 0x75160000 - 0x751C0000	(C:\windows\syswow64\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75150000 - 0x7515C000	(C:\windows\syswow64\CRYPTBASE.dll)
+LPK.dll	A: 0x757F0000 - 0x757FA000	(C:\windows\syswow64\LPK.dll)
+USP10.dll	A: 0x756A0000 - 0x7573D000	(C:\windows\syswow64\USP10.dll)
+WSOCK32.dll	A: 0x6DD90000 - 0x6DD97000	(C:\windows\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x76250000 - 0x76285000	(C:\windows\syswow64\WS2_32.dll)
+NSI.dll	A: 0x75F60000 - 0x75F66000	(C:\windows\syswow64\NSI.dll)
+WINMM.dll	A: 0x73270000 - 0x732A2000	(C:\windows\system32\WINMM.dll)
+IMM32.DLL	A: 0x754B0000 - 0x75510000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76180000 - 0x7624C000	(C:\windows\syswow64\MSCTF.dll)
+streamer.DLL	A: 0x74570000 - 0x745AE000	(C:\Users\Administrator\Downloads\LS-RP\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x74500000 - 0x74569000	(C:\Users\Administrator\Downloads\LS-RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x74440000 - 0x744FF000	(C:\Users\Administrator\Downloads\LS-RP\MSVCR100.dll)
+mysql.DLL	A: 0x624E0000 - 0x625B4000	(C:\Users\Administrator\Downloads\LS-RP\plugins\mysql.DLL)
+LIBMYSQL.dll	A: 0x10000000 - 0x10176000	(C:\Users\Administrator\Downloads\LS-RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x626E0000 - 0x62765000	(C:\Users\Administrator\Downloads\LS-RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x620C0000 - 0x62196000	(C:\Users\Administrator\Downloads\LS-RP\MSVCR110.dll)
+NLAapi.dll	A: 0x72FA0000 - 0x72FB0000	(C:\windows\system32\NLAapi.dll)
+napinsp.dll	A: 0x72F90000 - 0x72FA0000	(C:\windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x72F20000 - 0x72F32000	(C:\windows\system32\pnrpnsp.dll)
+mswsock.dll	A: 0x72FE0000 - 0x7301C000	(C:\windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x72ED0000 - 0x72F14000	(C:\windows\system32\DNSAPI.dll)
+winrnr.dll	A: 0x72EC0000 - 0x72EC8000	(C:\windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x72730000 - 0x72736000	(C:\windows\system32\rasadhlp.dll)
+sscanf.DLL	A: 0x00570000 - 0x0057C000	(C:\Users\Administrator\Downloads\LS-RP\plugins\sscanf.DLL)
+whirlpool.DLL	A: 0x00590000 - 0x0059C000	(C:\Users\Administrator\Downloads\LS-RP\plugins\whirlpool.DLL)
+MSVCR80.dll	A: 0x62440000 - 0x624DB000	(C:\windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll)
+wshtcpip.dll	A: 0x72FD0000 - 0x72FD5000	(C:\windows\System32\wshtcpip.dll)
+IPHLPAPI.DLL	A: 0x72EA0000 - 0x72EBC000	(C:\windows\system32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x72E90000 - 0x72E97000	(C:\windows\system32\WINNSI.DLL)
